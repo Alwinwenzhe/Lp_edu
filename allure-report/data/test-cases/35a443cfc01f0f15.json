@@ -1,0 +1,73 @@
+{
+  "uid" : "35a443cfc01f0f15",
+  "name" : "test_ysy_pro_008_Health_Check_visitAdd[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_008_Health_Check_visitAdd",
+  "historyId" : "806c18135522d6d762d2e753a5e25bf5",
+  "time" : {
+    "start" : 1605860076426,
+    "stop" : 1605860076426,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_008_Health_Check_visitAdd at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:69",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py', 70, \"Skipped: got empty parameter set ['case'], function test_ysy_pro_008_Health_Check_visitAdd at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py:69\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_008_Health_Check_visitAdd at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:69')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "41972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_008_Health_Check_visitAdd at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:69')" ]
+  },
+  "source" : "35a443cfc01f0f15.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

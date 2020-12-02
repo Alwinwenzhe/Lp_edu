@@ -1,0 +1,1152 @@
+{
+  "uid" : "1c7077d3d3bb9a4c",
+  "name" : "test_ysy_pro_006_repair_find_Index_Order_Num[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_006_repair_find_Index_Order_Num",
+  "historyId" : "97542d44f94c1f73d081c45df4e914ce",
+  "time" : {
+    "start" : 1606872652354,
+    "stop" : 1606872652354,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py', 62, \"Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py:61\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "7652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "21b3d5f6dc55ce1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606872038759,
+        "stop" : 1606872042010,
+        "duration" : 3251
+      }
+    }, {
+      "uid" : "2461d872fd1d1135",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825395861,
+        "stop" : 1606825398051,
+        "duration" : 2190
+      }
+    }, {
+      "uid" : "842be2e1bc3004e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606804083420,
+        "stop" : 1606804083420,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "32ba3eac72a914ce",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606804040737,
+        "stop" : 1606804040737,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "90dc537683f18b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606804009870,
+        "stop" : 1606804009870,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "620893a4c9ba26d8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606789922110,
+        "stop" : 1606789922110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3603876cb5abda00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785483966,
+        "stop" : 1606785486182,
+        "duration" : 2216
+      }
+    }, {
+      "uid" : "562c85e14bb99b98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739603721,
+        "stop" : 1606739606195,
+        "duration" : 2474
+      }
+    }, {
+      "uid" : "9a469f30a63d66f0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606736313190,
+        "stop" : 1606736313205,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "d2b04f30d09eea97",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606727623519,
+        "stop" : 1606727623519,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "757fb80f8c0d20a9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606727381845,
+        "stop" : 1606727381845,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7efd29d72ab752b6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606723771454,
+        "stop" : 1606723771454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe7333f65c9433ae",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606723491745,
+        "stop" : 1606723491745,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4170f60a41afce1b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606723378561,
+        "stop" : 1606723378561,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c00198ec3c075e90",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606721351995,
+        "stop" : 1606721351995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44d6f1d7a3385ea0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606721129570,
+        "stop" : 1606721129570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9638a5e8cd95c4e0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606720872316,
+        "stop" : 1606720872316,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "662d1cbc405ea28f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606720613372,
+        "stop" : 1606720613372,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff8642933eee99b5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606720492320,
+        "stop" : 1606720492320,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cd10468106ce69f4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606720421744,
+        "stop" : 1606720421744,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96542a2d600a4571",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606720265989,
+        "stop" : 1606720265989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f872bb261bf30e6f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606717883000,
+        "stop" : 1606717883000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfc59965a904174e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606707136793,
+        "stop" : 1606707136793,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "551b5dca6d093b80",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606706839829,
+        "stop" : 1606706839829,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d12c7737d5572a65",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606706709051,
+        "stop" : 1606706709051,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa13530161d0c249",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606705517836,
+        "stop" : 1606705517836,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7905e79ed8f0919",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606698909935,
+        "stop" : 1606698909935,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d45b5e8636655520",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606620699756,
+        "stop" : 1606620699756,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e1bda227c26cf71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606619942397,
+        "stop" : 1606619944750,
+        "duration" : 2353
+      }
+    }, {
+      "uid" : "8fb88a932be938d1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606619201412,
+        "stop" : 1606619201412,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a7d3546b47849e89",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606572943821,
+        "stop" : 1606572943821,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1765d827248545",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606528779704,
+        "stop" : 1606528779704,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1867d6275396fffc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606497641759,
+        "stop" : 1606497641759,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "83b2598ab5132f25",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606474273997,
+        "stop" : 1606474273997,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd9c8e67ed5130b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606455686438,
+        "stop" : 1606455686438,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a71787d586592c3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606455008342,
+        "stop" : 1606455008342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "849f40e1018b7014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606446009087,
+        "stop" : 1606446011315,
+        "duration" : 2228
+      }
+    }, {
+      "uid" : "f93129d84a917b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444923300,
+        "stop" : 1606444925533,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "b267dac26b3d66d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444334834,
+        "stop" : 1606444337057,
+        "duration" : 2223
+      }
+    }, {
+      "uid" : "ff58d9ff50a589f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606439663602,
+        "stop" : 1606439665802,
+        "duration" : 2200
+      }
+    }, {
+      "uid" : "683d8dc76623bcdf",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606391603814,
+        "stop" : 1606391603814,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f55bafbd15d5f3a2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606371864583,
+        "stop" : 1606371864584,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d4e54d7fa55d4a97",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606371834788,
+        "stop" : 1606371834788,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f6924ec2ab7d426f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606371139034,
+        "stop" : 1606371139034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d0c042eb00290bec",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606370491028,
+        "stop" : 1606370491028,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f2fd6b4dbd1b7fe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1606359889005,
+        "stop" : 1606359889005,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fb1c1714e2de88e6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606353242929,
+        "stop" : 1606353242929,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0718c3f28c62652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606310249459,
+        "stop" : 1606310251644,
+        "duration" : 2185
+      }
+    }, {
+      "uid" : "987623bb5d7f2e45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606302892998,
+        "stop" : 1606302895212,
+        "duration" : 2214
+      }
+    }, {
+      "uid" : "3b4e2b70db0222fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606301755140,
+        "stop" : 1606301757342,
+        "duration" : 2202
+      }
+    }, {
+      "uid" : "bc544bbbe8afef39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290783148,
+        "stop" : 1606290785356,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "f8629ab0955afbf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606266897751,
+        "stop" : 1606266899951,
+        "duration" : 2200
+      }
+    }, {
+      "uid" : "894767ce88d987e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606215304769,
+        "stop" : 1606215307001,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "dd8b1c9d56cbd77b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606128991014,
+        "stop" : 1606128993230,
+        "duration" : 2216
+      }
+    }, {
+      "uid" : "a894449be04b17f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606094784554,
+        "stop" : 1606094787009,
+        "duration" : 2455
+      }
+    }, {
+      "uid" : "d4e0434937b023bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606042581159,
+        "stop" : 1606042583508,
+        "duration" : 2349
+      }
+    }, {
+      "uid" : "1e4d198635a11ddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606008237705,
+        "stop" : 1606008240041,
+        "duration" : 2336
+      }
+    }, {
+      "uid" : "dd2e868df983516a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605967037129,
+        "stop" : 1605967037129,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "304a32422e73d74",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605967014257,
+        "stop" : 1605967014257,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "890c21090bed71c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605966839749,
+        "stop" : 1605966839749,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a65c33a0b059d377",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605966758566,
+        "stop" : 1605966758566,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "54ec77d8af01a90f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605963461357,
+        "stop" : 1605963461357,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4519c8874db93265",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605963445300,
+        "stop" : 1605963445300,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "58100364117c2670",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605963115499,
+        "stop" : 1605963115499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1978f870a31a493",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605962939848,
+        "stop" : 1605962939848,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b298c4977129a1e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605962916271,
+        "stop" : 1605962916271,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f7b26209213d65f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605962863953,
+        "stop" : 1605962863953,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d155fe5ebb832876",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605962814494,
+        "stop" : 1605962814494,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d16db057f440c1f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605962387872,
+        "stop" : 1605962390088,
+        "duration" : 2216
+      }
+    }, {
+      "uid" : "aef21ccaaf2a541e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605923040345,
+        "stop" : 1605923042602,
+        "duration" : 2257
+      }
+    }, {
+      "uid" : "e6ee7cf7fc60ed00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605921711582,
+        "stop" : 1605921713792,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "d4cd50693f6cdd49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605874463831,
+        "stop" : 1605874466127,
+        "duration" : 2296
+      }
+    }, {
+      "uid" : "acd299c9b7a5aaef",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605860076422,
+        "stop" : 1605860076422,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "edb19055b8532c51",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605860043932,
+        "stop" : 1605860043932,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88f9f368fa5e7e14",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605859685072,
+        "stop" : 1605859685072,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff610a75cf64ab36",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605859635541,
+        "stop" : 1605859635541,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45e91f159d092ae5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605858858968,
+        "stop" : 1605858858968,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97042c8f91385176",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605858616571,
+        "stop" : 1605858616571,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d625fc5cefc5978a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605858542699,
+        "stop" : 1605858542699,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ebfc22fcb4249f0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605858494480,
+        "stop" : 1605858494480,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4cd3f13a4b201aa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605858009974,
+        "stop" : 1605858009974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "19f5ed41bf636206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605838801952,
+        "stop" : 1605838804185,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "33aa91dcb97e5773",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1605834745009,
+        "stop" : 1605834745009,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ddb22bc3c1a19d3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605795578375,
+        "stop" : 1605795580583,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "1d165350a585f906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605791105832,
+        "stop" : 1605791108038,
+        "duration" : 2206
+      }
+    }, {
+      "uid" : "4cbd706f4afc4a30",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605790631265,
+        "stop" : 1605790631265,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94cb87a9d5322c5b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605790374533,
+        "stop" : 1605790374533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db4995218b3b3d8b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605748618184,
+        "stop" : 1605748618184,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a23a40c9bd1589aa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605704528221,
+        "stop" : 1605704528221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38646c4454641295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613745820,
+        "stop" : 1605613748036,
+        "duration" : 2216
+      }
+    }, {
+      "uid" : "f8d1b4e451030506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605488090358,
+        "stop" : 1605488092555,
+        "duration" : 2197
+      }
+    }, {
+      "uid" : "2aef7d605f51af62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605437693548,
+        "stop" : 1605437695727,
+        "duration" : 2179
+      }
+    }, {
+      "uid" : "9f95d818cfe70e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605406675668,
+        "stop" : 1605406675668,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ec7797e4cae2763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605401692955,
+        "stop" : 1605401695149,
+        "duration" : 2194
+      }
+    }, {
+      "uid" : "c685557409a545f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605351293252,
+        "stop" : 1605351295460,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "e94a5b8a0405813d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605315289819,
+        "stop" : 1605315292029,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "2266dcb954e2b70e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605264888390,
+        "stop" : 1605264890565,
+        "duration" : 2175
+      }
+    }, {
+      "uid" : "e20d0fcf19763739",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605253588464,
+        "stop" : 1605253588464,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3841c3285b403f52",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605238525260,
+        "stop" : 1605238525260,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f98ef80375701db",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605238198143,
+        "stop" : 1605238198143,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3a1791b8c6d191d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+      "time" : {
+        "start" : 1605237865172,
+        "stop" : 1605237865172,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 11,
+        "passed" : 26,
+        "unknown" : 0,
+        "total" : 38
+      },
+      "items" : [ {
+        "uid" : "ea7f6cf3e062161d",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/ea7f6cf3e062161d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825395861,
+          "stop" : 1606825398051,
+          "duration" : 2190
+        }
+      }, {
+        "uid" : "9250b4c859b23645",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/9250b4c859b23645",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785483966,
+          "stop" : 1606785486182,
+          "duration" : 2216
+        }
+      }, {
+        "uid" : "924fd43fa5999e5",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/924fd43fa5999e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739603721,
+          "stop" : 1606739606195,
+          "duration" : 2474
+        }
+      }, {
+        "uid" : "cc5a6e98f5cab847",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/cc5a6e98f5cab847",
+        "status" : "broken",
+        "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+        "time" : {
+          "start" : 1606736313190,
+          "stop" : 1606736313205,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "935dc37707c7993",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/35/allure/#testresult/935dc37707c7993",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1606698909935,
+          "stop" : 1606698909935,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "18bf408988c7e672",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/34/allure/#testresult/18bf408988c7e672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619942397,
+          "stop" : 1606619944750,
+          "duration" : 2353
+        }
+      }, {
+        "uid" : "f52277db8c9362d1",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/33/allure/#testresult/f52277db8c9362d1",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1606619201412,
+          "stop" : 1606619201412,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3b3fcf3d1567c8ae",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/32/allure/#testresult/3b3fcf3d1567c8ae",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1606572943821,
+          "stop" : 1606572943821,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eefd21228752c0c9",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/31/allure/#testresult/eefd21228752c0c9",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1606528779704,
+          "stop" : 1606528779704,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d1677a7827b0b859",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/30/allure/#testresult/d1677a7827b0b859",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1606497641759,
+          "stop" : 1606497641759,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec1f9be616fce84",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/181/allure/#testresult/ec1f9be616fce84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605437693548,
+          "stop" : 1605437695727,
+          "duration" : 2179
+        }
+      }, {
+        "uid" : "f8b7939d1fbd6d22",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/180/allure/#testresult/f8b7939d1fbd6d22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605401692955,
+          "stop" : 1605401695149,
+          "duration" : 2194
+        }
+      }, {
+        "uid" : "54d4c7221654ddcd",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/179/allure/#testresult/54d4c7221654ddcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605351293252,
+          "stop" : 1605351295460,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "32be41bdf806bd88",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/178/allure/#testresult/32be41bdf806bd88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605315289819,
+          "stop" : 1605315292029,
+          "duration" : 2210
+        }
+      }, {
+        "uid" : "e8f4dfc1c72a5ed8",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/177/allure/#testresult/e8f4dfc1c72a5ed8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605264888390,
+          "stop" : 1605264890565,
+          "duration" : 2175
+        }
+      }, {
+        "uid" : "c15be0ee536c922c",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/176/allure/#testresult/c15be0ee536c922c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1605142229718,
+          "stop" : 1605142229718,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "15432c4628030c88",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/175/allure/#testresult/15432c4628030c88",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1605091828051,
+          "stop" : 1605091828051,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6fcae26e25945236",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/174/allure/#testresult/6fcae26e25945236",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1605055822406,
+          "stop" : 1605055822406,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "29280ca5b568155c",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/173/allure/#testresult/29280ca5b568155c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61",
+        "time" : {
+          "start" : 1605005418813,
+          "stop" : 1605005418813,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1a1af16c79af3eb2",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/172/allure/#testresult/1a1af16c79af3eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993900244,
+          "stop" : 1604993902431,
+          "duration" : 2187
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_006_repair_find_Index_Order_Num at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:61')" ]
+  },
+  "source" : "1c7077d3d3bb9a4c.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

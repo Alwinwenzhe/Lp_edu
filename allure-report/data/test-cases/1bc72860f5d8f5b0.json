@@ -1,0 +1,97 @@
+{
+  "uid" : "1bc72860f5d8f5b0",
+  "name" : "test_ysy_pro_002_receive_setting_info[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_002_receive_setting_info",
+  "historyId" : "bf7b3cc4fce7eed5333efdf1e7268c12",
+  "time" : {
+    "start" : 1606215272997,
+    "stop" : 1606215275253,
+    "duration" : 2256
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "抢单状态获取",
+      "time" : {
+        "start" : 1606215272998,
+        "stop" : 1606215275253,
+        "duration" : 2255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2014', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_002_receive_setting_info', 'case_description': '首页--抢单状态获取', 'case_url': '/api/v1/user/receiveSettingInfo?userId=j::userId', 'case_header': '{\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'isReceive\": \"Y', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2014', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_002_receive_setting_info', 'case_description': '首页--抢单状态获取', 'case_url': '/api/v1/user/receiveSettingInfo?userId=j::userId', 'case_header': '{\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'isReceive\": \"Y', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bc72860f5d8f5b0.json",
+  "parameterValues" : [ "{'ID': '2014', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_002_receive_setting_info', 'case_description': '首页--抢单状态获取', 'case_url': '/api/v1/user/receiveSettingInfo?userId=j::userId', 'case_header': '{\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'isReceive\": \"Y', 'Comment': '', 'advice': ''}" ]
+}

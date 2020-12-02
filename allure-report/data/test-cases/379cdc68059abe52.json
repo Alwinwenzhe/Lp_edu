@@ -1,0 +1,68 @@
+{
+  "uid" : "379cdc68059abe52",
+  "name" : "test_home_001_today_Recommed[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_001_today_Recommed",
+  "historyId" : "991df4fc74db5d34fc638c22bbae910e",
+  "time" : {
+    "start" : 1605960999715,
+    "stop" : 1605961002023,
+    "duration" : 2308
+  },
+  "description" : "\n            用例描述：首页--今日推荐\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--今日推荐\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "story",
+    "value" : "今日推荐"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "15008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0061', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_001_today_Recommend', 'case_description': '首页--今日推荐', 'case_url': '/api/v1/index/todayRecommend/list?userId=j::userId&biotopeId=j::biotopeId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'bannerUrl', 'Comment': '确定至少有一个数据；', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "379cdc68059abe52.json",
+  "parameterValues" : [ "{'ID': '0061', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_001_today_Recommend', 'case_description': '首页--今日推荐', 'case_url': '/api/v1/index/todayRecommend/list?userId=j::userId&biotopeId=j::biotopeId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'bannerUrl', 'Comment': '确定至少有一个数据；', 'advice': ''}" ]
+}

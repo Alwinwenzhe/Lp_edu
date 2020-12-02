@@ -1,0 +1,65 @@
+{
+  "uid" : "170331dfc5a08002",
+  "name" : "test_home_002_topic[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_002_topic",
+  "historyId" : "2a95706b979052d22f59afd134284af8",
+  "time" : {
+    "start" : 1605790908331,
+    "stop" : 1605790911344,
+    "duration" : 3013
+  },
+  "description" : "\n            用例描述：首页--话题专栏\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--话题专栏\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "18208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0064', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_002_topic', 'case_description': '首页--话题专栏--缺少userid', 'case_url': '/api/v1/topic?userId=&typeId=&pageSize=5&pageNo=1', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1;\", 'Comment': 'userid是非必填项', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "170331dfc5a08002.json",
+  "parameterValues" : [ "{'ID': '0064', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_002_topic', 'case_description': '首页--话题专栏--缺少userid', 'case_url': '/api/v1/topic?userId=&typeId=&pageSize=5&pageNo=1', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1;\", 'Comment': 'userid是非必填项', 'advice': ''}" ]
+}

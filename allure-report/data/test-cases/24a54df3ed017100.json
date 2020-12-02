@@ -1,0 +1,97 @@
+{
+  "uid" : "24a54df3ed017100",
+  "name" : "test_ysy_pro_004_adImg_list_biotopeId[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_004_adImg_list_biotopeId",
+  "historyId" : "f314ec99a28e9b19d8ed9ced0c69386b",
+  "time" : {
+    "start" : 1605351281878,
+    "stop" : 1605351284075,
+    "duration" : 2197
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "顶部banner宣传",
+      "time" : {
+        "start" : 1605351281878,
+        "stop" : 1605351284075,
+        "duration" : 2197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2020', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_004_adImg_list_biotopeId', 'case_description': '首页--顶部banner宣传图', 'case_url': '/api/v1/adImg/list?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID不能为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "chenjie-PC"
+  }, {
+    "name" : "thread",
+    "value" : "84-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2020', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_004_adImg_list_biotopeId', 'case_description': '首页--顶部banner宣传图', 'case_url': '/api/v1/adImg/list?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID不能为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24a54df3ed017100.json",
+  "parameterValues" : [ "{'ID': '2020', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_004_adImg_list_biotopeId', 'case_description': '首页--顶部banner宣传图', 'case_url': '/api/v1/adImg/list?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID不能为空', 'Comment': '', 'advice': ''}" ]
+}

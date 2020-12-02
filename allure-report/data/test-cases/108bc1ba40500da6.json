@@ -1,0 +1,67 @@
+{
+  "uid" : "108bc1ba40500da6",
+  "name" : "test_home_004_update_Locate_City[case2]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_004_update_Locate_City",
+  "historyId" : "3dce0ced3fa7fdfef0cac2eafe37d585",
+  "time" : {
+    "start" : 1606736311864,
+    "stop" : 1606736311864,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--更新所属城市\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--更新所属城市\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <test_ysy_005_home.TestYsy005Home object at 0x000002BE0245E7C8>\ncase = {'Comment': '', 'ID': '0070', 'advice': '', 'case_description': '首页--更新城市', ...}\n\n>   ???\n\nE:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x000002BE02586A48>\ncase = {'Comment': '', 'ID': '0070', 'advice': '', 'case_description': '首页--更新城市', ...}\nrequest_method = 'post'\n\n    def test_case_method(self,case,request_method):\n        '''\n        所有api测试用例调用该方法\n        :param case:\n        :param request_method:\n        :return:\n        '''\n        expect, api_url, headers, params, global_var = self.param_get_deal(case)\n        response = self.reqe.req(request_method, api_url, params, headers, global_var)\n>       if response['body']:\nE       TypeError: 'NoneType' object is not subscriptable\n\nCommon\\new_tool_a.py:361: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "10564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0070', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_004_update_Locate_City', 'case_description': '首页--更新城市', 'case_url': '/api/v1/user/updateLocateCity?cityName=成都&userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "108bc1ba40500da6.json",
+  "parameterValues" : [ "{'ID': '0070', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_004_update_Locate_City', 'case_description': '首页--更新城市', 'case_url': '/api/v1/user/updateLocateCity?cityName=成都&userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}" ]
+}

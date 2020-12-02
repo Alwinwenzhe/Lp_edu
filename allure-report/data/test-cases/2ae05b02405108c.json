@@ -1,0 +1,68 @@
+{
+  "uid" : "2ae05b02405108c",
+  "name" : "test_login_009_update_Bind[case3]",
+  "fullName" : "TestCase_001_ysy.test_ysy_001_login.TestYsy001Login#test_login_009_update_Bind",
+  "historyId" : "057e43a6f592889d72162d50d557e9f2",
+  "time" : {
+    "start" : 1606042314400,
+    "stop" : 1606042317150,
+    "duration" : 2750
+  },
+  "description" : "\n            用例描述：设置默认房屋\n            设置之后test_ysy_002_invitation即将使用绑定了道闸设备的小区\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：设置默认房屋\n        设置之后test_ysy_002_invitation即将使用绑定了道闸设备的小区\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy001Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "17776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0060', 'envir': 'ysy_release', '前置用例': '', 'module': 'login_009_update_Bind', 'case_description': '设置默认房屋', 'case_url': '/api/v1/family/house/updateBind?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': \"familyHouseId$$select IFNULL(mhr.id_family_house,'check is error') from user u LEFT JOIN member_house_relationship mhr ON u.id = mhr.id_user \\nwhere u.mobile={0[0]} AND mhr.is_valid='Y' LIMIT 1format(c::ysy_user);\", 'case_params': '{\"familyHouseId\":\"j::familyHouseId\",\"isDefault\":\"\",\"mobile\":\"c::ysy_user\",\"newFamilyHouseId\":\"\"}', 'case_expect': '是否设为默认房屋信息不能为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ae05b02405108c.json",
+  "parameterValues" : [ "{'ID': '0060', 'envir': 'ysy_release', '前置用例': '', 'module': 'login_009_update_Bind', 'case_description': '设置默认房屋', 'case_url': '/api/v1/family/house/updateBind?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': \"familyHouseId$$select IFNULL(mhr.id_family_house,'check is error') from user u LEFT JOIN member_house_relationship mhr ON u.id = mhr.id_user \\nwhere u.mobile={0[0]} AND mhr.is_valid='Y' LIMIT 1format(c::ysy_user);\", 'case_params': '{\"familyHouseId\":\"j::familyHouseId\",\"isDefault\":\"\",\"mobile\":\"c::ysy_user\",\"newFamilyHouseId\":\"\"}', 'case_expect': '是否设为默认房屋信息不能为空', 'Comment': '', 'advice': ''}" ]
+}

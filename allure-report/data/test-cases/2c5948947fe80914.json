@@ -1,0 +1,71 @@
+{
+  "uid" : "2c5948947fe80914",
+  "name" : "test_fee_003_fee_history[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_009_biotope_fee.TestYsy009BiotopeFee#test_fee_003_fee_history",
+  "historyId" : "257df9ddefec044126da5f83a672c775",
+  "time" : {
+    "start" : 1605406675620,
+    "stop" : 1605406675620,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_fee_003_fee_history at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_009_biotope_fee.py:23",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_009_biotope_fee.py', 24, \"Skipped: got empty parameter set ['case'], function test_fee_003_fee_history at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_009_biotope_fee.py:23\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "物业缴费"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "小区服务"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_fee_003_fee_history at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_009_biotope_fee.py:23')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_009_biotope_fee"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy009BiotopeFee"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_009_biotope_fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_fee_003_fee_history at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_009_biotope_fee.py:23')" ]
+  },
+  "source" : "2c5948947fe80914.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

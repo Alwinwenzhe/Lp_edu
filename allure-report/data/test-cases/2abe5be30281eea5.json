@@ -1,0 +1,70 @@
+{
+  "uid" : "2abe5be30281eea5",
+  "name" : "test_home_003_login_Score[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_003_login_Score",
+  "historyId" : "53df5ac91060426b13a7d26d0e53d865",
+  "time" : {
+    "start" : 1606359886221,
+    "stop" : 1606359886221,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--每日登陆获取积分\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--每日登陆获取积分\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_home_003_login_Score at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:36",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_005_home.py', 37, \"Skipped: got empty parameter set ['case'], function test_home_003_login_Score at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_005_home.py:36\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_003_login_Score at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:36')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "17196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_003_login_Score at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:36')" ]
+  },
+  "source" : "2abe5be30281eea5.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

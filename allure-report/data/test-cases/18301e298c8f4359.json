@@ -1,0 +1,591 @@
+{
+  "uid" : "18301e298c8f4359",
+  "name" : "test_fee_004_immediately_Fee[case1]",
+  "fullName" : "TestCase_001_ysy.test_ysy_009_biotope_fee.TestYsy009BiotopeFee#test_fee_004_immediately_Fee",
+  "historyId" : "4e02a3f889ee981aae3909c7a9e1de5a",
+  "time" : {
+    "start" : 1606871834874,
+    "stop" : 1606871837426,
+    "duration" : 2552
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "预存缴费",
+      "time" : {
+        "start" : 1606871834874,
+        "stop" : 1606871837426,
+        "duration" : 2552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0040', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=j::customerId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "物业预缴"
+  }, {
+    "name" : "story",
+    "value" : "物业缴费"
+  }, {
+    "name" : "feature",
+    "value" : "小区服务"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_009_biotope_fee"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy009BiotopeFee"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_009_biotope_fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0040', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=j::customerId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "ff9fdc127e9e6cfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825253843,
+        "stop" : 1606825256181,
+        "duration" : 2338
+      }
+    }, {
+      "uid" : "1ef2bdc335387af8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785354151,
+        "stop" : 1606785356392,
+        "duration" : 2241
+      }
+    }, {
+      "uid" : "c087347fd3e06cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739447299,
+        "stop" : 1606739449635,
+        "duration" : 2336
+      }
+    }, {
+      "uid" : "cacd0fff6760db83",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606736312426,
+        "stop" : 1606736312428,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1fdeeed10241ef23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606619842041,
+        "stop" : 1606619844605,
+        "duration" : 2564
+      }
+    }, {
+      "uid" : "8eef1bf7c7d8725b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606445897809,
+        "stop" : 1606445900079,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "31c266000b07ea6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444827050,
+        "stop" : 1606444829299,
+        "duration" : 2249
+      }
+    }, {
+      "uid" : "6ba6f67e858cb575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444240090,
+        "stop" : 1606444242337,
+        "duration" : 2247
+      }
+    }, {
+      "uid" : "23296db55b0f2c41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606439569307,
+        "stop" : 1606439571533,
+        "duration" : 2226
+      }
+    }, {
+      "uid" : "9cd34b8c94e253a1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606391603266,
+        "stop" : 1606391603266,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "21622cdd4cd4d8bd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606353242413,
+        "stop" : 1606353242413,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7098c9e0ec80c931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606310154229,
+        "stop" : 1606310156456,
+        "duration" : 2227
+      }
+    }, {
+      "uid" : "ee14cbab604afdfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606302798754,
+        "stop" : 1606302800985,
+        "duration" : 2231
+      }
+    }, {
+      "uid" : "7de591675c952ce5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606301660631,
+        "stop" : 1606301662849,
+        "duration" : 2218
+      }
+    }, {
+      "uid" : "67dafec77ab05c0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290688949,
+        "stop" : 1606290691178,
+        "duration" : 2229
+      }
+    }, {
+      "uid" : "3c10512d78c59b25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606266802947,
+        "stop" : 1606266805190,
+        "duration" : 2243
+      }
+    }, {
+      "uid" : "dede1ed179ee6db1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606215208932,
+        "stop" : 1606215211162,
+        "duration" : 2230
+      }
+    }, {
+      "uid" : "b05b6133a97c25f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606128885538,
+        "stop" : 1606128888008,
+        "duration" : 2470
+      }
+    }, {
+      "uid" : "454088d81c7623e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606094676539,
+        "stop" : 1606094678939,
+        "duration" : 2400
+      }
+    }, {
+      "uid" : "882420132f76d1fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606042477629,
+        "stop" : 1606042479957,
+        "duration" : 2328
+      }
+    }, {
+      "uid" : "e51e2e67da74f4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606008139735,
+        "stop" : 1606008141967,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "a400a38c75794604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605962294280,
+        "stop" : 1605962296513,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "9069a942555fa7b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605922941935,
+        "stop" : 1605922944287,
+        "duration" : 2352
+      }
+    }, {
+      "uid" : "2161126840b7a3db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605921611222,
+        "stop" : 1605921613572,
+        "duration" : 2350
+      }
+    }, {
+      "uid" : "55c63dcba5cfe698",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605874365220,
+        "stop" : 1605874367564,
+        "duration" : 2344
+      }
+    }, {
+      "uid" : "c5b04d73d7681ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605838707527,
+        "stop" : 1605838709818,
+        "duration" : 2291
+      }
+    }, {
+      "uid" : "f0383bbbe2217ebb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1605834744478,
+        "stop" : 1605834744478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4fcc1852f52a35ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605795484506,
+        "stop" : 1605795486746,
+        "duration" : 2240
+      }
+    }, {
+      "uid" : "cc00cb1ec32104a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605791005145,
+        "stop" : 1605791007418,
+        "duration" : 2273
+      }
+    }, {
+      "uid" : "8c5d03cb424ef912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613653256,
+        "stop" : 1605613656484,
+        "duration" : 3228
+      }
+    }, {
+      "uid" : "9a65d952788eedf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605525090455,
+        "stop" : 1605525092852,
+        "duration" : 2397
+      }
+    }, {
+      "uid" : "254adfbada2dd885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605487998760,
+        "stop" : 1605488000961,
+        "duration" : 2201
+      }
+    }, {
+      "uid" : "436bb69d818cb9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605437602645,
+        "stop" : 1605437604871,
+        "duration" : 2226
+      }
+    }, {
+      "uid" : "220d7a9dca23af79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605401599406,
+        "stop" : 1605401601644,
+        "duration" : 2238
+      }
+    }, {
+      "uid" : "f0029f154adc2c88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605351200774,
+        "stop" : 1605351202996,
+        "duration" : 2222
+      }
+    }, {
+      "uid" : "47cbe38f81ba2f7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605315197003,
+        "stop" : 1605315199206,
+        "duration" : 2203
+      }
+    }, {
+      "uid" : "9323343f0cb27540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605264797447,
+        "stop" : 1605264799647,
+        "duration" : 2200
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 65,
+        "unknown" : 0,
+        "total" : 66
+      },
+      "items" : [ {
+        "uid" : "e7114b16eb0a433e",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/e7114b16eb0a433e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825253843,
+          "stop" : 1606825256181,
+          "duration" : 2338
+        }
+      }, {
+        "uid" : "c888c381241516d6",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/c888c381241516d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785354151,
+          "stop" : 1606785356392,
+          "duration" : 2241
+        }
+      }, {
+        "uid" : "894d192d21ddcd4d",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/894d192d21ddcd4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739447299,
+          "stop" : 1606739449635,
+          "duration" : 2336
+        }
+      }, {
+        "uid" : "d0626a0a2af2018e",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/d0626a0a2af2018e",
+        "status" : "broken",
+        "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+        "time" : {
+          "start" : 1606736312426,
+          "stop" : 1606736312428,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "c6627c9810d9d79a",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/35/allure/#testresult/c6627c9810d9d79a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619842041,
+          "stop" : 1606619844605,
+          "duration" : 2564
+        }
+      }, {
+        "uid" : "4c639fc4bc3b90d0",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/34/allure/#testresult/4c639fc4bc3b90d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619842041,
+          "stop" : 1606619844605,
+          "duration" : 2564
+        }
+      }, {
+        "uid" : "5e48380d3b44edf2",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/33/allure/#testresult/5e48380d3b44edf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606445897809,
+          "stop" : 1606445900079,
+          "duration" : 2270
+        }
+      }, {
+        "uid" : "d0d53d75ba15df0f",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/32/allure/#testresult/d0d53d75ba15df0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606445897809,
+          "stop" : 1606445900079,
+          "duration" : 2270
+        }
+      }, {
+        "uid" : "247f6adb4939319",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/31/allure/#testresult/247f6adb4939319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606445897809,
+          "stop" : 1606445900079,
+          "duration" : 2270
+        }
+      }, {
+        "uid" : "8a8f091da5127aa3",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/30/allure/#testresult/8a8f091da5127aa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606445897809,
+          "stop" : 1606445900079,
+          "duration" : 2270
+        }
+      }, {
+        "uid" : "760435257996e14b",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/181/allure/#testresult/760435257996e14b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605437602645,
+          "stop" : 1605437604871,
+          "duration" : 2226
+        }
+      }, {
+        "uid" : "687a1ce6baa4eccc",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/180/allure/#testresult/687a1ce6baa4eccc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605401599406,
+          "stop" : 1605401601644,
+          "duration" : 2238
+        }
+      }, {
+        "uid" : "745d8b709f74c9e0",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/179/allure/#testresult/745d8b709f74c9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605351200774,
+          "stop" : 1605351202996,
+          "duration" : 2222
+        }
+      }, {
+        "uid" : "fa1e5c90fb0ddc29",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/178/allure/#testresult/fa1e5c90fb0ddc29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605315197003,
+          "stop" : 1605315199206,
+          "duration" : 2203
+        }
+      }, {
+        "uid" : "9efcc0c6c8eba373",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/177/allure/#testresult/9efcc0c6c8eba373",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605264797447,
+          "stop" : 1605264799647,
+          "duration" : 2200
+        }
+      }, {
+        "uid" : "830d193840457a16",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/176/allure/#testresult/830d193840457a16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993807464,
+          "stop" : 1604993809672,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "ed66fcc9bcd10c8e",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/175/allure/#testresult/ed66fcc9bcd10c8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993807464,
+          "stop" : 1604993809672,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "fe892ae5d77c5d05",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/174/allure/#testresult/fe892ae5d77c5d05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993807464,
+          "stop" : 1604993809672,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "f8828af003d7e4d0",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/173/allure/#testresult/f8828af003d7e4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993807464,
+          "stop" : 1604993809672,
+          "duration" : 2208
+        }
+      }, {
+        "uid" : "7ad4a709fe815ce5",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/172/allure/#testresult/7ad4a709fe815ce5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993807464,
+          "stop" : 1604993809672,
+          "duration" : 2208
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "18301e298c8f4359.json",
+  "parameterValues" : [ "{'ID': '0040', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=j::customerId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}" ]
+}

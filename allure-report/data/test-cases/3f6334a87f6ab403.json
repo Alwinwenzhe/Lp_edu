@@ -1,0 +1,97 @@
+{
+  "uid" : "3f6334a87f6ab403",
+  "name" : "test_ysy_pro_012_public_AreaRepair_publish[case2]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_003_my_task.TestYsyPro002MyTask#test_ysy_pro_012_public_AreaRepair_publish",
+  "historyId" : "c856b563a0a6fa5f630def20af9f5982",
+  "time" : {
+    "start" : 1606290858197,
+    "stop" : 1606290860749,
+    "duration" : 2552
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我的应用--报事报修--公区报修",
+      "time" : {
+        "start" : 1606290858197,
+        "stop" : 1606290860749,
+        "duration" : 2552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2057', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_012_public_AreaRepair_publish', 'case_description': '首页--我的应用--报事报修--公区报修', 'case_url': '/api/v1/publicAreaRepair/publish?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"repairImages\":\"\",\"repairName\":\"公区自动化保修\",\"repairDesc\":\"力宝大厦\",\"biotopeId\":\"j::biotopeId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "首页--任务列表"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_003_my_task"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002MyTask"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "15528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_003_my_task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2057', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_012_public_AreaRepair_publish', 'case_description': '首页--我的应用--报事报修--公区报修', 'case_url': '/api/v1/publicAreaRepair/publish?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"repairImages\":\"\",\"repairName\":\"公区自动化保修\",\"repairDesc\":\"力宝大厦\",\"biotopeId\":\"j::biotopeId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f6334a87f6ab403.json",
+  "parameterValues" : [ "{'ID': '2057', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_012_public_AreaRepair_publish', 'case_description': '首页--我的应用--报事报修--公区报修', 'case_url': '/api/v1/publicAreaRepair/publish?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"repairImages\":\"\",\"repairName\":\"公区自动化保修\",\"repairDesc\":\"力宝大厦\",\"biotopeId\":\"j::biotopeId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}" ]
+}

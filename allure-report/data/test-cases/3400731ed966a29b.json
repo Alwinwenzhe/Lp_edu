@@ -1,0 +1,68 @@
+{
+  "uid" : "3400731ed966a29b",
+  "name" : "test_myself_002_member_list[case1]",
+  "fullName" : "TestCase_003_o2o.test_o2o_001_myself.TestO2O001Myself#test_myself_002_member_list",
+  "historyId" : "8886584f7e7d9c7449675922656cd8b9",
+  "time" : {
+    "start" : 1605315233476,
+    "stop" : 1605315235873,
+    "duration" : 2397
+  },
+  "description" : "\n            用例描述：首页--每日登陆获取积分\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--每日登陆获取积分\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "ysy_Login"
+  }, {
+    "name" : "story",
+    "value" : "Log in"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_003_o2o"
+  }, {
+    "name" : "suite",
+    "value" : "test_o2o_001_myself"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestO2O001Myself"
+  }, {
+    "name" : "host",
+    "value" : "chenjie-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_003_o2o.test_o2o_001_myself"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0073', 'envir': 'ysy_release', '前置用例': '', 'module': 'myself_002_member_list', 'case_description': '我的--个人信息', 'case_url': '/api/v1/family/member/list?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(u.nick_name,'query is error') from `user` u WHERE u.mobile='{0[0]}'format(c::ysy_user);\", 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3400731ed966a29b.json",
+  "parameterValues" : [ "{'ID': '0073', 'envir': 'ysy_release', '前置用例': '', 'module': 'myself_002_member_list', 'case_description': '我的--个人信息', 'case_url': '/api/v1/family/member/list?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(u.nick_name,'query is error') from `user` u WHERE u.mobile='{0[0]}'format(c::ysy_user);\", 'Comment': '', 'advice': ''}" ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "15f94c550c7e0a28",
+  "name" : "test_fee_001_fee_resource[case1]",
+  "fullName" : "TestCase_001_ysy.test_ysy_009_biotope_fee.TestYsy009BiotopeFee#test_fee_001_fee_resource",
+  "historyId" : "1db9d4938518420459b2bd9301a19828",
+  "time" : {
+    "start" : 1606739429951,
+    "stop" : 1606739432655,
+    "duration" : 2704
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取业主房屋资源列表",
+      "time" : {
+        "start" : 1606739429951,
+        "stop" : 1606739432655,
+        "duration" : 2704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0041', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_001_fee_resource', 'case_description': '小区服务--物业缴费--获取小区业主资源名', 'case_url': '/api/v1/property/fee/resource?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '未对accessToken进行判断，也未补充该用例', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "物业缴费"
+  }, {
+    "name" : "feature",
+    "value" : "小区服务"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_009_biotope_fee"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy009BiotopeFee"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "3088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_009_biotope_fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0041', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_001_fee_resource', 'case_description': '小区服务--物业缴费--获取小区业主资源名', 'case_url': '/api/v1/property/fee/resource?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '未对accessToken进行判断，也未补充该用例', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15f94c550c7e0a28.json",
+  "parameterValues" : [ "{'ID': '0041', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_001_fee_resource', 'case_description': '小区服务--物业缴费--获取小区业主资源名', 'case_url': '/api/v1/property/fee/resource?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '未对accessToken进行判断，也未补充该用例', 'advice': ''}" ]
+}

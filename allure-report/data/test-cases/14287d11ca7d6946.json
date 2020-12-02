@@ -1,0 +1,73 @@
+{
+  "uid" : "14287d11ca7d6946",
+  "name" : "test_home_door_004_gated_open_Code[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_010_home_door.TestYsy010HomeDoor#test_home_door_004_gated_open_Code",
+  "historyId" : "7593182650e5bd53e3d5a4ad0b17f88a",
+  "time" : {
+    "start" : 1606727619960,
+    "stop" : 1606727619960,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页-智慧门禁--人像管理--扫码开门\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页-智慧门禁--人像管理--扫码开门\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_home_door_004_gated_open_Code at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_010_home_door.py:44",
+  "statusTrace" : "('E:\\\\python_code\\\\Api_automation\\\\TestCase_001_ysy\\\\test_ysy_010_home_door.py', 45, \"Skipped: got empty parameter set ['case'], function test_home_door_004_gated_open_Code at E:\\\\python_code\\\\Api_automation\\\\TestCase_001_ysy\\\\test_ysy_010_home_door.py:44\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "智慧门禁"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁--智慧门禁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_door_004_gated_open_Code at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_010_home_door.py:44')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_010_home_door"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy010HomeDoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_010_home_door"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_door_004_gated_open_Code at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_010_home_door.py:44')" ]
+  },
+  "source" : "14287d11ca7d6946.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

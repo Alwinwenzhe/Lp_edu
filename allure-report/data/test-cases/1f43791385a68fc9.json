@@ -1,0 +1,109 @@
+{
+  "uid" : "1f43791385a68fc9",
+  "name" : "test_ysy_pro_001_user_login[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_001_login.TestYsyPro001Login#test_ysy_pro_001_user_login",
+  "historyId" : "c0b7c8acd53e20d28094b7583f45ed9a",
+  "time" : {
+    "start" : 1605437641790,
+    "stop" : 1605437642096,
+    "duration" : 306
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: ''",
+  "statusTrace" : "self = <test_ysy_pro_001_login.TestYsyPro001Login object at 0x03F014B0>\ncase = {'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'ID': '2001', 'advice': '', 'case_description': '一生约物业app登录', ...}\n\n    @allure.step('登录')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_001_user_login'))\n    def test_ysy_pro_001_user_login(self,case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_004_ysy_property\\test_ysy_pro_001_login.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:365: in test_case_method\n    self.response_write_to_json(global_var, response['text'])\nCommon\\new_tool_a.py:96: in response_write_to_json\n    self.get_path(path, response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x03E355F0>\nkey = 'data/accessToken,data/userId,,data/biotopeId'\nres = '{\"code\":0,\"data\":{\"userId\":\"084c2e7a5d0d421b9a29b8e529e0bc20\",\"roleVoList\":[{\"code\":\"1000\",\"name\":\"维修\"}],\"identity\":1...\"Y\",\"propertyId\":\"5f234e19af14444a846e61775f282700\",\"isEquipmentPatrol\":\"Y\",\"isPleasedSurvey\":\"Y\"},\"ts\":1605437642646}'\n\n    def get_path(self, key, res):\n        list_comma = key.split(',')\n        for i in list_comma:\n            list = i.split(\"/\")\n            list_last = list[-1]\n            res_value = json.loads(res, encoding='utf-8')\n            try:\n                for i in range(len(list)):\n                    if str(list[i]).isdigit():      # 如果是数字\n                        res_value = res_value[int(list[i])]\n                    else:\n>                       res_value = res_value[list[i]]\nE                       KeyError: ''\n\nCommon\\new_tool_a.py:83: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: ''",
+    "statusTrace" : "self = <test_ysy_pro_001_login.TestYsyPro001Login object at 0x03F014B0>\ncase = {'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'ID': '2001', 'advice': '', 'case_description': '一生约物业app登录', ...}\n\n    @allure.step('登录')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_001_user_login'))\n    def test_ysy_pro_001_user_login(self,case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_004_ysy_property\\test_ysy_pro_001_login.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:365: in test_case_method\n    self.response_write_to_json(global_var, response['text'])\nCommon\\new_tool_a.py:96: in response_write_to_json\n    self.get_path(path, response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x03E355F0>\nkey = 'data/accessToken,data/userId,,data/biotopeId'\nres = '{\"code\":0,\"data\":{\"userId\":\"084c2e7a5d0d421b9a29b8e529e0bc20\",\"roleVoList\":[{\"code\":\"1000\",\"name\":\"维修\"}],\"identity\":1...\"Y\",\"propertyId\":\"5f234e19af14444a846e61775f282700\",\"isEquipmentPatrol\":\"Y\",\"isPleasedSurvey\":\"Y\"},\"ts\":1605437642646}'\n\n    def get_path(self, key, res):\n        list_comma = key.split(',')\n        for i in list_comma:\n            list = i.split(\"/\")\n            list_last = list[-1]\n            res_value = json.loads(res, encoding='utf-8')\n            try:\n                for i in range(len(list)):\n                    if str(list[i]).isdigit():      # 如果是数字\n                        res_value = res_value[int(list[i])]\n                    else:\n>                       res_value = res_value[list[i]]\nE                       KeyError: ''\n\nCommon\\new_tool_a.py:83: KeyError",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1605437641790,
+        "stop" : 1605437642056,
+        "duration" : 266
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: ''\n",
+      "statusTrace" : "  File \"D:\\Job\\python\\python37\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_001_login.py\", line 20, in test_ysy_pro_001_user_login\n    self.new.test_case_method(case, 'post')\n  File \"D:\\Job\\python\\Script\\Api_automation\\Common\\new_tool_a.py\", line 365, in test_case_method\n    self.response_write_to_json(global_var, response['text'])\n  File \"D:\\Job\\python\\Script\\Api_automation\\Common\\new_tool_a.py\", line 96, in response_write_to_json\n    self.get_path(path, response)\n  File \"D:\\Job\\python\\Script\\Api_automation\\Common\\new_tool_a.py\", line 83, in get_path\n    res_value = res_value[list[i]]\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e23ac800871185d0",
+      "name" : "log",
+      "source" : "e23ac800871185d0.txt",
+      "type" : "text/plain",
+      "size" : 77
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro001Login"
+  }, {
+    "name" : "host",
+    "value" : "chenjie-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f43791385a68fc9.json",
+  "parameterValues" : [ "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}" ]
+}

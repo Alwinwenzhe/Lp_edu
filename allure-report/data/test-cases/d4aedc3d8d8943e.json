@@ -1,0 +1,97 @@
+{
+  "uid" : "d4aedc3d8d8943e",
+  "name" : "test_home_door_001_get_Biotope_Face[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_010_home_door.TestYsy010HomeDoor#test_home_door_001_get_Biotope_Face",
+  "historyId" : "4d9097b631118631db8f4b5dd3f642c9",
+  "time" : {
+    "start" : 1606445900087,
+    "stop" : 1606445902338,
+    "duration" : 2251
+  },
+  "description" : "\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页-智慧门禁--人像管理--人像列表\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "人像设备是否支持",
+      "time" : {
+        "start" : 1606445900087,
+        "stop" : 1606445902338,
+        "duration" : 2251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0089', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_001_get_Biotope_Face', 'case_description': '首页-智慧门禁--人像管理--人像设备是否支持', 'case_url': '/api/v1/face/getBiotopeFace?userId=j::userId&biotopeId=j::familyBiotopeId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '判断小区是是否支持人像管理的', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "智慧门禁"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁--智慧门禁"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_010_home_door"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy010HomeDoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "5788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_010_home_door"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0089', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_001_get_Biotope_Face', 'case_description': '首页-智慧门禁--人像管理--人像设备是否支持', 'case_url': '/api/v1/face/getBiotopeFace?userId=j::userId&biotopeId=j::familyBiotopeId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '判断小区是是否支持人像管理的', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4aedc3d8d8943e.json",
+  "parameterValues" : [ "{'ID': '0089', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_001_get_Biotope_Face', 'case_description': '首页-智慧门禁--人像管理--人像设备是否支持', 'case_url': '/api/v1/face/getBiotopeFace?userId=j::userId&biotopeId=j::familyBiotopeId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': 'code\": 0', 'Comment': '判断小区是是否支持人像管理的', 'advice': ''}" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "205befabbc9b9818",
+  "name" : "test_login_002_log_in[case1]",
+  "fullName" : "TestCase_002_yhz_old_regitster.test_yhz_001_login.TestYhz001Login#test_login_002_log_in",
+  "historyId" : "43969b8e6721282ca24028a6f4aa9040",
+  "time" : {
+    "start" : 1606301669781,
+    "stop" : 1606301672021,
+    "duration" : 2240
+  },
+  "description" : "\n            用例描述：验证码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：验证码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "雨花_老人登记_登录"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_002_yhz_old_regitster"
+  }, {
+    "name" : "suite",
+    "value" : "test_yhz_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYhz001Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "7112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_002_yhz_old_regitster.test_yhz_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': 3004.0, 'envir': 'yhz_test', '前置用例': '', 'module': 'yhz_002_log_in', 'case_description': '登录--缺少手机号', 'case_url': '/api/qhd/xapp/login', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"phone\":\"\",\"captcha\":\"135246\"}', 'case_expect': 'status\": 200', 'Comment': '', 'advice': '为什么没有手机号都能没异常信息抛出？？'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "205befabbc9b9818.json",
+  "parameterValues" : [ "{'ID': 3004.0, 'envir': 'yhz_test', '前置用例': '', 'module': 'yhz_002_log_in', 'case_description': '登录--缺少手机号', 'case_url': '/api/qhd/xapp/login', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"phone\":\"\",\"captcha\":\"135246\"}', 'case_expect': 'status\": 200', 'Comment': '', 'advice': '为什么没有手机号都能没异常信息抛出？？'}" ]
+}

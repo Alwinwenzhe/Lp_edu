@@ -1,0 +1,73 @@
+{
+  "uid" : "380baa8af99235fc",
+  "name" : "test_repair_004_repair_userCancel[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_008_repair.TestYsy007Myself#test_repair_004_repair_userCancel",
+  "historyId" : "4b664ed021ee1100064e73eb000c5d25",
+  "time" : {
+    "start" : 1606706803200,
+    "stop" : 1606706803200,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：报修历史记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：报修历史记录\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_repair_004_repair_userCancel at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_008_repair.py:36",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_008_repair.py', 37, \"Skipped: got empty parameter set ['case'], function test_repair_004_repair_userCancel at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_008_repair.py:36\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小区服务--报事报修"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "报事报修"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_repair_004_repair_userCancel at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_008_repair.py:36')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_008_repair"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy007Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "6824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_008_repair"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_repair_004_repair_userCancel at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_008_repair.py:36')" ]
+  },
+  "source" : "380baa8af99235fc.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

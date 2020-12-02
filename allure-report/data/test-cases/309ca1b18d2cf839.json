@@ -1,0 +1,1223 @@
+{
+  "uid" : "309ca1b18d2cf839",
+  "name" : "test_invitation_004_invite_Visitor[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_002_invitation.TestYsy002Invitation#test_invitation_004_invite_Visitor",
+  "historyId" : "2bd16ed6c5a6d9583fff1e3e89e930ef",
+  "time" : {
+    "start" : 1606872617393,
+    "stop" : 1606872617393,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：获取验证码，该用例数据源来自excel\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：获取验证码，该用例数据源来自excel\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_002_invitation.py', 54, \"Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_002_invitation.py:53\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--邀請"
+  }, {
+    "name" : "story",
+    "value" : "invite_Visitor"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_002_invitation"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy002Invitation"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "7652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_002_invitation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "a308d5067807972f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606871675283,
+        "stop" : 1606871677944,
+        "duration" : 2661
+      }
+    }, {
+      "uid" : "b825e1469ea7c780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825125202,
+        "stop" : 1606825128706,
+        "duration" : 3504
+      }
+    }, {
+      "uid" : "4abae92aed32ea56",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606804078779,
+        "stop" : 1606804078779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "beacf53004951909",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606804038273,
+        "stop" : 1606804038273,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42ae6e0484c4b3c6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606804009686,
+        "stop" : 1606804009686,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4dc47739953b35fb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606789917563,
+        "stop" : 1606789917563,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22bef6658f23eb31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785232875,
+        "stop" : 1606785235099,
+        "duration" : 2224
+      }
+    }, {
+      "uid" : "bc973135aca77ef1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739297306,
+        "stop" : 1606739299538,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "e53c517ae88ed587",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1606736311542,
+        "stop" : 1606736311542,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1319459ad53e8eb5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606727619920,
+        "stop" : 1606727619920,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4d66fc5919a883b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606727571331,
+        "stop" : 1606727571331,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "92c40a5260b46c5d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606727495947,
+        "stop" : 1606727495947,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a84c2dfe369933dd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606727381660,
+        "stop" : 1606727381660,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c2cb2e45666f7c7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606723761121,
+        "stop" : 1606723761121,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8af7fb371d6c5891",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606723488756,
+        "stop" : 1606723488756,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60ded31d90add6d3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606723377059,
+        "stop" : 1606723377059,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "20754f8707b4a720",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606721351493,
+        "stop" : 1606721351493,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "61169027c292275d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606721128876,
+        "stop" : 1606721128876,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "90da9df5c8da1df3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606720872216,
+        "stop" : 1606720872216,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4d5f3c4a09d63a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606720611605,
+        "stop" : 1606720611605,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a1713ef5643552a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606720491963,
+        "stop" : 1606720491963,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a62df233916908bd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606720421571,
+        "stop" : 1606720421571,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c26ac30ab96030d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606720265782,
+        "stop" : 1606720265782,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5fa4a3912716199b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606717882912,
+        "stop" : 1606717882912,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23f2bc4247eb9582",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606707131037,
+        "stop" : 1606707131037,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c41779e2d371c2af",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606706803128,
+        "stop" : 1606706803128,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9818f5fc07ac09fd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606706708691,
+        "stop" : 1606706708691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "314a421ad82e3aa2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606705512955,
+        "stop" : 1606705512955,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36a8f465df2cd856",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606702486161,
+        "stop" : 1606702486161,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4609d61d233d70fb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606698909263,
+        "stop" : 1606698909263,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c3d5cbf3a03bdbf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606620814604,
+        "stop" : 1606620814604,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b9dc15510ebef10",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606620698412,
+        "stop" : 1606620698412,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ed2d4d5f29f12bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606619708313,
+        "stop" : 1606619710737,
+        "duration" : 2424
+      }
+    }, {
+      "uid" : "316565540ea71d6a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606619198605,
+        "stop" : 1606619198605,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c8073a349ba9632",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606572941149,
+        "stop" : 1606572941149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "384099e9ae8ccbf4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606528776767,
+        "stop" : 1606528776767,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87217f10325e70a1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606497638673,
+        "stop" : 1606497638673,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "236501726f9d9377",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606474270877,
+        "stop" : 1606474270877,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea23959ad34f4233",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606455674382,
+        "stop" : 1606455674382,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b69927c05e5fd2fc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606455102758,
+        "stop" : 1606455102758,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "815df3c7b1bba14f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606455058599,
+        "stop" : 1606455058599,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2d07e83728b30a97",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606454925790,
+        "stop" : 1606454925790,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9b7080ffc72700d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606447102030,
+        "stop" : 1606447102030,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa77f975b699cf5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606445775519,
+        "stop" : 1606445777755,
+        "duration" : 2236
+      }
+    }, {
+      "uid" : "662122488aae26ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444706609,
+        "stop" : 1606444708890,
+        "duration" : 2281
+      }
+    }, {
+      "uid" : "cff272ebc631400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444117772,
+        "stop" : 1606444120014,
+        "duration" : 2242
+      }
+    }, {
+      "uid" : "e5782da97572135b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606439449456,
+        "stop" : 1606439451752,
+        "duration" : 2296
+      }
+    }, {
+      "uid" : "34efa4a15d1b1a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1606391602441,
+        "stop" : 1606391602441,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3353333409481a49",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606371859925,
+        "stop" : 1606371859925,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3d041d823238df7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606371832043,
+        "stop" : 1606371832043,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9930e75bef48c9b6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606371131890,
+        "stop" : 1606371131890,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cc2e6be928f2aa8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606370487542,
+        "stop" : 1606370487542,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb8a7a35045ba861",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1606359886181,
+        "stop" : 1606359886181,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7491da3a8e34ff77",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1606353241694,
+        "stop" : 1606353241694,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "90bc61be86d251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606310031386,
+        "stop" : 1606310033622,
+        "duration" : 2236
+      }
+    }, {
+      "uid" : "b07d52a3160eaecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606302677627,
+        "stop" : 1606302679847,
+        "duration" : 2220
+      }
+    }, {
+      "uid" : "eae7a0b645a491c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606301539802,
+        "stop" : 1606301542013,
+        "duration" : 2211
+      }
+    }, {
+      "uid" : "f4a9e8203d2b665b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290567480,
+        "stop" : 1606290569734,
+        "duration" : 2254
+      }
+    }, {
+      "uid" : "4500ba4607ce6a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606266680538,
+        "stop" : 1606266682779,
+        "duration" : 2241
+      }
+    }, {
+      "uid" : "c34cf7528f64b6b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606215086360,
+        "stop" : 1606215088579,
+        "duration" : 2219
+      }
+    }, {
+      "uid" : "8e8de988d8cefca4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606128741753,
+        "stop" : 1606128744111,
+        "duration" : 2358
+      }
+    }, {
+      "uid" : "7e8555f7d15079b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606094566475,
+        "stop" : 1606094568803,
+        "duration" : 2328
+      }
+    }, {
+      "uid" : "1abab0cc904ede97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606042338574,
+        "stop" : 1606042340933,
+        "duration" : 2359
+      }
+    }, {
+      "uid" : "24bf2d0c4d0f8bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606008013699,
+        "stop" : 1606008016009,
+        "duration" : 2310
+      }
+    }, {
+      "uid" : "237f8f9d78afe545",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605967036153,
+        "stop" : 1605967036153,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe06904e80f3e1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605967014169,
+        "stop" : 1605967014169,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7206fa802948374",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605966839661,
+        "stop" : 1605966839661,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d26aadb377854a35",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605966758478,
+        "stop" : 1605966758478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec181a6fe58990e5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605963461221,
+        "stop" : 1605963461221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d353d2842c2a6ab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605963445133,
+        "stop" : 1605963445133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a496fb0845c9e3e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605963115256,
+        "stop" : 1605963115256,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5cc6a311a9764e00",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605962939697,
+        "stop" : 1605962939697,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f37b986bf1949990",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605962916167,
+        "stop" : 1605962916167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6ec5d3982ed7eea4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605962863778,
+        "stop" : 1605962863778,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "305ffc55faf648ef",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605962814382,
+        "stop" : 1605962814382,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9aa656b03c0e6396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605960975420,
+        "stop" : 1605960977645,
+        "duration" : 2225
+      }
+    }, {
+      "uid" : "a085d42bb4a6360a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605922813214,
+        "stop" : 1605922815534,
+        "duration" : 2320
+      }
+    }, {
+      "uid" : "18283db5f849f394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605921485311,
+        "stop" : 1605921487529,
+        "duration" : 2218
+      }
+    }, {
+      "uid" : "949b6b4796f7b082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605874263006,
+        "stop" : 1605874265214,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "5ad7037e4791c00a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605860076183,
+        "stop" : 1605860076183,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c230f8ed5642b417",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605860043790,
+        "stop" : 1605860043790,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25bba9fb35c92d8d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605859684948,
+        "stop" : 1605859684948,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d6c3e3b0e232fad6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605859635419,
+        "stop" : 1605859635419,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "adc7eadb0084667",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605858858638,
+        "stop" : 1605858858638,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa87d9002afd604b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605858616340,
+        "stop" : 1605858616340,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b2bd30878dd8db13",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605858542459,
+        "stop" : 1605858542459,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b9e6de34833502f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605858494297,
+        "stop" : 1605858494297,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dffc809050040824",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605858009865,
+        "stop" : 1605858009865,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64663813f695781b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605838584576,
+        "stop" : 1605838586791,
+        "duration" : 2215
+      }
+    }, {
+      "uid" : "23006a239604b86b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1605834743759,
+        "stop" : 1605834743775,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "ba46a13d93852a55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605795346083,
+        "stop" : 1605795348443,
+        "duration" : 2360
+      }
+    }, {
+      "uid" : "27da7f7ca3e6ea8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605790876450,
+        "stop" : 1605790878682,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "e1e8593243de4e38",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605790631177,
+        "stop" : 1605790631177,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d64eb6e426c6b5a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605790374408,
+        "stop" : 1605790374408,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4fbab33ba2864f6d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605748618121,
+        "stop" : 1605748618121,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d16e7c4c2c775ca5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605704528158,
+        "stop" : 1605704528158,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e4a3159e4f9735c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613526657,
+        "stop" : 1605613528886,
+        "duration" : 2229
+      }
+    }, {
+      "uid" : "96db6b3ec836576d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605524960962,
+        "stop" : 1605524963375,
+        "duration" : 2413
+      }
+    }, {
+      "uid" : "b4270fd7f68afeeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605487879808,
+        "stop" : 1605487882036,
+        "duration" : 2228
+      }
+    }, {
+      "uid" : "36a3a66757d1b01a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605437482723,
+        "stop" : 1605437484933,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "b260bd5114f0d97c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605406675572,
+        "stop" : 1605406675572,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "515acee07e9ad1a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605401480004,
+        "stop" : 1605401482223,
+        "duration" : 2219
+      }
+    }, {
+      "uid" : "95d477d4f0a34298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605351081494,
+        "stop" : 1605351083700,
+        "duration" : 2206
+      }
+    }, {
+      "uid" : "b66832e99f9b8435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605315078151,
+        "stop" : 1605315080356,
+        "duration" : 2205
+      }
+    }, {
+      "uid" : "648ae77fe88dbbce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605264678019,
+        "stop" : 1605264680272,
+        "duration" : 2253
+      }
+    }, {
+      "uid" : "e9e5a42743d9680",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605253588328,
+        "stop" : 1605253588328,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "59411aa4c94a1d64",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605238525194,
+        "stop" : 1605238525194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb3df006f6404cfc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605238198067,
+        "stop" : 1605238198067,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46df3988667b0151",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+      "time" : {
+        "start" : 1605237865112,
+        "stop" : 1605237865112,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 1,
+        "skipped" : 63,
+        "passed" : 65,
+        "unknown" : 0,
+        "total" : 135
+      },
+      "items" : [ {
+        "uid" : "22074ffb8b7eed19",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/22074ffb8b7eed19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825125202,
+          "stop" : 1606825128706,
+          "duration" : 3504
+        }
+      }, {
+        "uid" : "f97a40cba712088a",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/f97a40cba712088a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785232875,
+          "stop" : 1606785235099,
+          "duration" : 2224
+        }
+      }, {
+        "uid" : "c66852e6b6bc498c",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/c66852e6b6bc498c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739297306,
+          "stop" : 1606739299538,
+          "duration" : 2232
+        }
+      }, {
+        "uid" : "c40dbbfb86ba7552",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/c40dbbfb86ba7552",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+        "time" : {
+          "start" : 1606736311542,
+          "stop" : 1606736311542,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f533938440a765f1",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/35/allure/#testresult/f533938440a765f1",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1606698909263,
+          "stop" : 1606698909263,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7b88b0df4f8f27e",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/34/allure/#testresult/c7b88b0df4f8f27e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619708313,
+          "stop" : 1606619710737,
+          "duration" : 2424
+        }
+      }, {
+        "uid" : "1f4c8bb898ed7982",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/33/allure/#testresult/1f4c8bb898ed7982",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1606619198605,
+          "stop" : 1606619198605,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "123d212684c4952c",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/32/allure/#testresult/123d212684c4952c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1606572941149,
+          "stop" : 1606572941149,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "11d296d1cc4d0b53",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/31/allure/#testresult/11d296d1cc4d0b53",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1606528776767,
+          "stop" : 1606528776767,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "103bf240d7ae6413",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/30/allure/#testresult/103bf240d7ae6413",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1606497638673,
+          "stop" : 1606497638673,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2ac1c99575430c0f",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/181/allure/#testresult/2ac1c99575430c0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605437482723,
+          "stop" : 1605437484933,
+          "duration" : 2210
+        }
+      }, {
+        "uid" : "2e310394a01551c3",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/180/allure/#testresult/2e310394a01551c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605401480004,
+          "stop" : 1605401482223,
+          "duration" : 2219
+        }
+      }, {
+        "uid" : "abe2872d1665fc23",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/179/allure/#testresult/abe2872d1665fc23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605351081494,
+          "stop" : 1605351083700,
+          "duration" : 2206
+        }
+      }, {
+        "uid" : "46be2f8d18fae5b0",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/178/allure/#testresult/46be2f8d18fae5b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605315078151,
+          "stop" : 1605315080356,
+          "duration" : 2205
+        }
+      }, {
+        "uid" : "6acfdbcf95faab3d",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/177/allure/#testresult/6acfdbcf95faab3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605264678019,
+          "stop" : 1605264680272,
+          "duration" : 2253
+        }
+      }, {
+        "uid" : "f296eef051d92134",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/176/allure/#testresult/f296eef051d92134",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1605142229627,
+          "stop" : 1605142229627,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1c4434f59f38e0c0",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/175/allure/#testresult/1c4434f59f38e0c0",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1605091827972,
+          "stop" : 1605091827972,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "86aed558161b17b5",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/174/allure/#testresult/86aed558161b17b5",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1605055822322,
+          "stop" : 1605055822322,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "be860f04c4ec0a2a",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/173/allure/#testresult/be860f04c4ec0a2a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_invitation_004_invite_Visitor at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53",
+        "time" : {
+          "start" : 1605005418727,
+          "stop" : 1605005418727,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9540d8c35865cf06",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/172/allure/#testresult/9540d8c35865cf06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993688477,
+          "stop" : 1604993690666,
+          "duration" : 2189
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_invitation_004_invite_Visitor at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_002_invitation.py:53')" ]
+  },
+  "source" : "309ca1b18d2cf839.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

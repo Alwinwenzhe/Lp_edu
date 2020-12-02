@@ -1,0 +1,73 @@
+{
+  "uid" : "5f5dc1eb92eec09",
+  "name" : "test_biotope_serve_002_notice_newest[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_003_biotope_serve.TestYsy003BiotopeServe#test_biotope_serve_002_notice_newest",
+  "historyId" : "4cc4d39e70d74d351882e82f8f7d1ce7",
+  "time" : {
+    "start" : 1606720872216,
+    "stop" : 1606720872216,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页刷新--广播\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页刷新--广播\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_biotope_serve_002_notice_newest at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_003_biotope_serve.py:24",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_003_biotope_serve.py', 25, \"Skipped: got empty parameter set ['case'], function test_biotope_serve_002_notice_newest at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_003_biotope_serve.py:24\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--物业板块"
+  }, {
+    "name" : "story",
+    "value" : "物业首页"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_biotope_serve_002_notice_newest at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_003_biotope_serve.py:24')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_003_biotope_serve"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy003BiotopeServe"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_003_biotope_serve"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_biotope_serve_002_notice_newest at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_003_biotope_serve.py:24')" ]
+  },
+  "source" : "5f5dc1eb92eec09.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

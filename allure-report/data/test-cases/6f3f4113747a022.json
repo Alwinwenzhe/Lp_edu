@@ -1,0 +1,97 @@
+{
+  "uid" : "6f3f4113747a022",
+  "name" : "test_repair_003_cur_Repair_List[case4]",
+  "fullName" : "TestCase_001_ysy.test_ysy_008_repair.TestYsy007Myself#test_repair_003_cur_Repair_List",
+  "historyId" : "bde86ffd172af13e7a7791ecd19094fa",
+  "time" : {
+    "start" : 1606785326499,
+    "stop" : 1606785328987,
+    "duration" : 2488
+  },
+  "description" : "\n            用例描述：报修历史记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：报修历史记录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：报修历史记录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "报修历史记录",
+      "time" : {
+        "start" : 1606785326499,
+        "stop" : 1606785328987,
+        "duration" : 2488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0029', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_003_cur_Repair_List', 'case_description': '报修列表--并非历史报修', 'case_url': '/api/v1/area/repair/curRepairList?userId=j::userId&houseId=j::familyHouseId&repairTypeId=j::parentId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,9,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小区服务--报事报修"
+  }, {
+    "name" : "story",
+    "value" : "报事报修"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_008_repair"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy007Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "10520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_008_repair"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0029', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_003_cur_Repair_List', 'case_description': '报修列表--并非历史报修', 'case_url': '/api/v1/area/repair/curRepairList?userId=j::userId&houseId=j::familyHouseId&repairTypeId=j::parentId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,9,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f3f4113747a022.json",
+  "parameterValues" : [ "{'ID': '0029', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_003_cur_Repair_List', 'case_description': '报修列表--并非历史报修', 'case_url': '/api/v1/area/repair/curRepairList?userId=j::userId&houseId=j::familyHouseId&repairTypeId=j::parentId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,9,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'Comment': '', 'advice': ''}" ]
+}

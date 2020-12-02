@@ -1,0 +1,103 @@
+{
+  "uid" : "34c8bad04e676e3a",
+  "name" : "test_ysy_pro_009_get_Repair_List_1[case7]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_003_my_task.TestYsyPro002MyTask#test_ysy_pro_009_get_Repair_List_1",
+  "historyId" : "9d310362417c3b3999d4c50dd267f96e",
+  "time" : {
+    "start" : 1605834745228,
+    "stop" : 1605834745228,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <test_ysy_pro_003_my_task.TestYsyPro002MyTask object at 0x00000186ED478E48>\ncase = {'Comment': '', 'ID': '2041', 'advice': '', 'case_description': '首页-任务列表--公区--已取消--userId为空', ...}\n\n    @allure.step('公区报修列表')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_009_get_Repair_List_1'))\n    def test_ysy_pro_009_get_Repair_List_1(self, case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_004_ysy_property\\test_ysy_pro_003_my_task.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x00000186ED62AA88>\ncase = {'Comment': '', 'ID': '2041', 'advice': '', 'case_description': '首页-任务列表--公区--已取消--userId为空', ...}\nrequest_method = 'post'\n\n    def test_case_method(self,case,request_method):\n        '''\n        所有api测试用例调用该方法\n        :param case:\n        :param request_method:\n        :return:\n        '''\n        expect, api_url, headers, params, global_var = self.param_get_deal(case)\n        response = self.reqe.req(request_method, api_url, params, headers, global_var)\n>       if response['body']:\nE       TypeError: 'NoneType' object is not subscriptable\n\nCommon\\new_tool_a.py:359: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <test_ysy_pro_003_my_task.TestYsyPro002MyTask object at 0x00000186ED478E48>\ncase = {'Comment': '', 'ID': '2041', 'advice': '', 'case_description': '首页-任务列表--公区--已取消--userId为空', ...}\n\n    @allure.step('公区报修列表')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_009_get_Repair_List_1'))\n    def test_ysy_pro_009_get_Repair_List_1(self, case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_004_ysy_property\\test_ysy_pro_003_my_task.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x00000186ED62AA88>\ncase = {'Comment': '', 'ID': '2041', 'advice': '', 'case_description': '首页-任务列表--公区--已取消--userId为空', ...}\nrequest_method = 'post'\n\n    def test_case_method(self,case,request_method):\n        '''\n        所有api测试用例调用该方法\n        :param case:\n        :param request_method:\n        :return:\n        '''\n        expect, api_url, headers, params, global_var = self.param_get_deal(case)\n        response = self.reqe.req(request_method, api_url, params, headers, global_var)\n>       if response['body']:\nE       TypeError: 'NoneType' object is not subscriptable\n\nCommon\\new_tool_a.py:359: TypeError",
+    "steps" : [ {
+      "name" : "公区报修列表",
+      "time" : {
+        "start" : 1605834745228,
+        "stop" : 1605834745228,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not subscriptable\n",
+      "statusTrace" : "  File \"E:\\programs\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_003_my_task.py\", line 19, in test_ysy_pro_009_get_Repair_List_1\n    self.new.test_case_method(case, 'post')\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 359, in test_case_method\n    if response['body']:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2041', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_009_get_Repair_List_1', 'case_description': '首页-任务列表--公区--已取消--userId为空', 'case_url': '/api/v1/publicAreaRepair/getRepairList?userId=&biotopeId=j::biotopeId&status=4&pageNo=1&pageSize=20', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '员工Id不能为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "首页--任务列表"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_003_my_task"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002MyTask"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "24616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_003_my_task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2041', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_009_get_Repair_List_1', 'case_description': '首页-任务列表--公区--已取消--userId为空', 'case_url': '/api/v1/publicAreaRepair/getRepairList?userId=&biotopeId=j::biotopeId&status=4&pageNo=1&pageSize=20', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '员工Id不能为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34c8bad04e676e3a.json",
+  "parameterValues" : [ "{'ID': '2041', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_009_get_Repair_List_1', 'case_description': '首页-任务列表--公区--已取消--userId为空', 'case_url': '/api/v1/publicAreaRepair/getRepairList?userId=&biotopeId=j::biotopeId&status=4&pageNo=1&pageSize=20', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '员工Id不能为空', 'Comment': '', 'advice': ''}" ]
+}

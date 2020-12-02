@@ -1,0 +1,70 @@
+{
+  "uid" : "39ba849ec64c1a69",
+  "name" : "test_myself_002_member_list[case0]",
+  "fullName" : "TestCase_003_o2o.test_o2o_001_myself.TestO2O001Myself#test_myself_002_member_list",
+  "historyId" : "6ba13ee57da3bf744576f047fa091a4e",
+  "time" : {
+    "start" : 1606391603428,
+    "stop" : 1606391603428,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--每日登陆获取积分\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--每日登陆获取积分\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: tuple indices must be integers or slices, not str",
+  "statusTrace" : "self = <test_o2o_001_myself.TestO2O001Myself object at 0x0000020E0B541208>\ncase = {'Comment': '', 'ID': '0072', 'advice': '', 'case_description': '我的--个人信息', ...}\n\n    @pytest.mark.parametrize('case', excel.get_excel_data('myself_002_member_list'))\n    def test_myself_002_member_list(self, case):\n        \"\"\"\n            用例描述：首页--每日登陆获取积分\n        \"\"\"\n>       self.new.test_case_method(case, 'get')\n\nTestCase_003_o2o\\test_o2o_001_myself.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x0000020E0B796FC8>\ncase = {'Comment': '', 'ID': '0072', 'advice': '', 'case_description': '我的--个人信息', ...}\nrequest_method = 'get'\n\n    def test_case_method(self,case,request_method):\n        '''\n        所有api测试用例调用该方法\n        :param case:\n        :param request_method:\n        :return:\n        '''\n        expect, api_url, headers, params, global_var = self.param_get_deal(case)\n        response = self.reqe.req(request_method, api_url, params, headers, global_var)\n>       if response['body']:\nE       TypeError: tuple indices must be integers or slices, not str\n\nCommon\\new_tool_a.py:359: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Log in"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "ysy_Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_003_o2o"
+  }, {
+    "name" : "suite",
+    "value" : "test_o2o_001_myself"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestO2O001Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "3284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_003_o2o.test_o2o_001_myself"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0072', 'envir': 'ysy_release', '前置用例': '', 'module': 'myself_002_member_list', 'case_description': '我的--个人信息', 'case_url': '/api/v1/family/member/list?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID参数为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39ba849ec64c1a69.json",
+  "parameterValues" : [ "{'ID': '0072', 'envir': 'ysy_release', '前置用例': '', 'module': 'myself_002_member_list', 'case_description': '我的--个人信息', 'case_url': '/api/v1/family/member/list?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID参数为空', 'Comment': '', 'advice': ''}" ]
+}

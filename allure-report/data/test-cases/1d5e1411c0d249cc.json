@@ -1,0 +1,73 @@
+{
+  "uid" : "1d5e1411c0d249cc",
+  "name" : "test_login_010_versionInfo_android[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_001_login.TestYsy001Login#test_login_010_versionInfo_android",
+  "historyId" : "7750d3816950de5dc5d77a5d67a58e69",
+  "time" : {
+    "start" : 1605962939678,
+    "stop" : 1605962939678,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：设置默认房屋\n            设置之后test_ysy_002_invitation即将使用绑定了道闸设备的小区\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：设置默认房屋\n        设置之后test_ysy_002_invitation即将使用绑定了道闸设备的小区\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_login_010_versionInfo_android at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_001_login.py:108",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_001_login.py', 109, \"Skipped: got empty parameter set ['case'], function test_login_010_versionInfo_android at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_001_login.py:108\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--登录"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_login_010_versionInfo_android at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_001_login.py:108')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy001Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "31512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_login_010_versionInfo_android at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_001_login.py:108')" ]
+  },
+  "source" : "1d5e1411c0d249cc.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

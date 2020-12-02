@@ -1,0 +1,109 @@
+{
+  "uid" : "9aa4a924727daf2",
+  "name" : "test_repair_002_repair_publish[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_008_repair.TestYsy007Myself#test_repair_002_repair_publish",
+  "historyId" : "0ade650b3981d6ef2eadf9fa143657a6",
+  "time" : {
+    "start" : 1606439521577,
+    "stop" : 1606439521801,
+    "duration" : 224
+  },
+  "description" : "\n            用例描述：报修历史记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：报修历史记录\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_ysy_008_repair.TestYsy007Myself object at 0x0000025930089E48>\ncase = {'Comment': '', 'ID': '0020', 'advice': '', 'case_description': '提交报事报修--缺少userId', ...}\n\n    @allure.step(\"提交报修\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('repair_002_repair_publish'))\n    def test_repair_002_repair_publish(self, case):\n        \"\"\"\n            用例描述：报修历史记录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_001_ysy\\test_ysy_008_repair.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000002592FF214C8>\nbody = {'code': 1004, 'msg': '用户ID参数为空', 'ts': 1606439521166}\nexpected_msg = '用户不存在'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：报修历史记录\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_ysy_008_repair.TestYsy007Myself object at 0x0000025930089E48>\ncase = {'Comment': '', 'ID': '0020', 'advice': '', 'case_description': '提交报事报修--缺少userId', ...}\n\n    @allure.step(\"提交报修\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('repair_002_repair_publish'))\n    def test_repair_002_repair_publish(self, case):\n        \"\"\"\n            用例描述：报修历史记录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_001_ysy\\test_ysy_008_repair.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000002592FF214C8>\nbody = {'code': 1004, 'msg': '用户ID参数为空', 'ts': 1606439521166}\nexpected_msg = '用户不存在'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+    "steps" : [ {
+      "name" : "提交报修",
+      "time" : {
+        "start" : 1606439521577,
+        "stop" : 1606439521793,
+        "duration" : 216
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"E:\\programs\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_008_repair.py\", line 27, in test_repair_002_repair_publish\n    self.new.test_case_method(case, 'post')\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 360, in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\n  File \"E:\\python_code\\Api_automation\\Common\\Assert.py\", line 118, in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n  File \"E:\\python_code\\Api_automation\\Common\\Assert.py\", line 65, in assert_in_text\n    assert expected_msg in text\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0020', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_002_repair_publish', 'case_description': '提交报事报修--缺少userId', 'case_url': '/api/v1/area/repair/publish?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"houseId\":\"j::familyHouseId\",\"repairImages\":\"\",\"repairContent\":\"这个是自动化保修工单\",\"reservationTime\":\"2020-10-21 14:39\",\"repairType\":\"SELF_REPAIR\",\"employeeId\":\"\",\"callName\":\"\",\"callPhone\":\"\",\"repairTypeId\":\"j::id\"}', 'case_expect': '用户不存在', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ad942d08e2d2af8b",
+      "name" : "log",
+      "source" : "ad942d08e2d2af8b.txt",
+      "type" : "text/plain",
+      "size" : 127
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小区服务--报事报修"
+  }, {
+    "name" : "story",
+    "value" : "报事报修"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_008_repair"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy007Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_008_repair"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0020', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_002_repair_publish', 'case_description': '提交报事报修--缺少userId', 'case_url': '/api/v1/area/repair/publish?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"houseId\":\"j::familyHouseId\",\"repairImages\":\"\",\"repairContent\":\"这个是自动化保修工单\",\"reservationTime\":\"2020-10-21 14:39\",\"repairType\":\"SELF_REPAIR\",\"employeeId\":\"\",\"callName\":\"\",\"callPhone\":\"\",\"repairTypeId\":\"j::id\"}', 'case_expect': '用户不存在', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9aa4a924727daf2.json",
+  "parameterValues" : [ "{'ID': '0020', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_002_repair_publish', 'case_description': '提交报事报修--缺少userId', 'case_url': '/api/v1/area/repair/publish?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"houseId\":\"j::familyHouseId\",\"repairImages\":\"\",\"repairContent\":\"这个是自动化保修工单\",\"reservationTime\":\"2020-10-21 14:39\",\"repairType\":\"SELF_REPAIR\",\"employeeId\":\"\",\"callName\":\"\",\"callPhone\":\"\",\"repairTypeId\":\"j::id\"}', 'case_expect': '用户不存在', 'Comment': '', 'advice': ''}" ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "94575dc16002403",
+  "name" : "test_myself_002_member_list[case0]",
+  "fullName" : "TestCase_003_o2o.test_o2o_001_myself.TestO2O001Myself#test_myself_002_member_list",
+  "historyId" : "6ba13ee57da3bf744576f047fa091a4e",
+  "time" : {
+    "start" : 1605790374502,
+    "stop" : 1605790374502,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--每日登陆获取积分\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--每日登陆获取积分\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_myself_002_member_list at E:\\python_code\\Api_automation\\TestCase_003_o2o\\test_o2o_001_myself.py:34",
+  "statusTrace" : "('E:\\\\python_code\\\\Api_automation\\\\TestCase_003_o2o\\\\test_o2o_001_myself.py', 35, \"Skipped: got empty parameter set ['case'], function test_myself_002_member_list at E:\\\\python_code\\\\Api_automation\\\\TestCase_003_o2o\\\\test_o2o_001_myself.py:34\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "ysy_Login"
+  }, {
+    "name" : "story",
+    "value" : "Log in"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_myself_002_member_list at E:\\python_code\\Api_automation\\TestCase_003_o2o\\test_o2o_001_myself.py:34')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_003_o2o"
+  }, {
+    "name" : "suite",
+    "value" : "test_o2o_001_myself"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestO2O001Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "26204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_003_o2o.test_o2o_001_myself"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_myself_002_member_list at E:\\python_code\\Api_automation\\TestCase_003_o2o\\test_o2o_001_myself.py:34')" ]
+  },
+  "source" : "94575dc16002403.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

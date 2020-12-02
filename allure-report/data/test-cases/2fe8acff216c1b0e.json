@@ -1,0 +1,70 @@
+{
+  "uid" : "2fe8acff216c1b0e",
+  "name" : "test_home_006_get_Weather_Info[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_006_get_Weather_Info",
+  "historyId" : "4faa78c25b6bb8d27ff58751399eb092",
+  "time" : {
+    "start" : 1606804078803,
+    "stop" : 1606804078803,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--获取天气信息\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--获取天气信息\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_home_006_get_Weather_Info at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:57",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_005_home.py', 58, \"Skipped: got empty parameter set ['case'], function test_home_006_get_Weather_Info at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_005_home.py:57\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_006_get_Weather_Info at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:57')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "1676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_home_006_get_Weather_Info at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:57')" ]
+  },
+  "source" : "2fe8acff216c1b0e.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

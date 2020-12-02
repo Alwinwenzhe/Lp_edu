@@ -1,0 +1,109 @@
+{
+  "uid" : "3424e9dd03c724c2",
+  "name" : "test_home_door_003_get_Face_Apply_Reason[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_010_home_door.TestYsy010HomeDoor#test_home_door_003_get_Face_Apply_Reason",
+  "historyId" : "310e468faf5b4f135c28b6d61efb5869",
+  "time" : {
+    "start" : 1606371832159,
+    "stop" : 1606371832404,
+    "duration" : 245
+  },
+  "description" : "\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页-智慧门禁--人像管理--人像列表\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_ysy_010_home_door.TestYsy010HomeDoor object at 0x000001AC8918BC48>\ncase = {'Comment': '', 'ID': '2054', 'advice': '', 'case_description': '首页-智慧门禁--人像管理--添加人像--申请理由--userid不能为空', ...}\n\n    @allure.step(\"申请理由\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('home_door_003_get_Face_Apply_Reason'))\n    def test_home_door_003_get_Face_Apply_Reason(self, case):\n        \"\"\"\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        \"\"\"\n>       self.new.test_case_method(case, 'get')\n\nTestCase_001_ysy\\test_ysy_010_home_door.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001AC89205EC8>\nbody = {'code': 0, 'data': [{'code': 'ME_FACE', 'name': '本人头像'}, {'code': 'FAMILY_FACE', 'name': '家人头像'}, {'code': 'VISITOR_F...'code': 'FRIEND_FACE', 'name': '朋友头像，后期删除'}, {'code': 'REPAIR_FACE', 'name': '装修师傅、维修工头像，完工后删除'}], 'ts': 1606371832106}\nexpected_msg = '用户ID不能为空'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_ysy_010_home_door.TestYsy010HomeDoor object at 0x000001AC8918BC48>\ncase = {'Comment': '', 'ID': '2054', 'advice': '', 'case_description': '首页-智慧门禁--人像管理--添加人像--申请理由--userid不能为空', ...}\n\n    @allure.step(\"申请理由\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('home_door_003_get_Face_Apply_Reason'))\n    def test_home_door_003_get_Face_Apply_Reason(self, case):\n        \"\"\"\n            用例描述：首页-智慧门禁--人像管理--人像列表\n        \"\"\"\n>       self.new.test_case_method(case, 'get')\n\nTestCase_001_ysy\\test_ysy_010_home_door.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001AC89205EC8>\nbody = {'code': 0, 'data': [{'code': 'ME_FACE', 'name': '本人头像'}, {'code': 'FAMILY_FACE', 'name': '家人头像'}, {'code': 'VISITOR_F...'code': 'FRIEND_FACE', 'name': '朋友头像，后期删除'}, {'code': 'REPAIR_FACE', 'name': '装修师傅、维修工头像，完工后删除'}], 'ts': 1606371832106}\nexpected_msg = '用户ID不能为空'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+    "steps" : [ {
+      "name" : "申请理由",
+      "time" : {
+        "start" : 1606371832160,
+        "stop" : 1606371832382,
+        "duration" : 222
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"E:\\programs\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_010_home_door.py\", line 43, in test_home_door_003_get_Face_Apply_Reason\n    self.new.test_case_method(case, 'get')\n  File \"E:\\Python_auto_test\\Pytest_Api_automation\\Common\\new_tool_a.py\", line 360, in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\n  File \"E:\\Python_auto_test\\Pytest_Api_automation\\Common\\Assert.py\", line 118, in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n  File \"E:\\Python_auto_test\\Pytest_Api_automation\\Common\\Assert.py\", line 65, in assert_in_text\n    assert expected_msg in text\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2054', 'envir': 'ysy_test', '前置用例': '', 'module': 'home_door_003_get_Face_Apply_Reason', 'case_description': '首页-智慧门禁--人像管理--添加人像--申请理由--userid不能为空', 'case_url': '/api/v1/face/getFaceApplyReason?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID不能为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "93e46e55e741c776",
+      "name" : "log",
+      "source" : "93e46e55e741c776.txt",
+      "type" : "text/plain",
+      "size" : 132
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁--智慧门禁"
+  }, {
+    "name" : "story",
+    "value" : "智慧门禁"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_010_home_door"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy010HomeDoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "11240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_010_home_door"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2054', 'envir': 'ysy_test', '前置用例': '', 'module': 'home_door_003_get_Face_Apply_Reason', 'case_description': '首页-智慧门禁--人像管理--添加人像--申请理由--userid不能为空', 'case_url': '/api/v1/face/getFaceApplyReason?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID不能为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3424e9dd03c724c2.json",
+  "parameterValues" : [ "{'ID': '2054', 'envir': 'ysy_test', '前置用例': '', 'module': 'home_door_003_get_Face_Apply_Reason', 'case_description': '首页-智慧门禁--人像管理--添加人像--申请理由--userid不能为空', 'case_url': '/api/v1/face/getFaceApplyReason?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID不能为空', 'Comment': '', 'advice': ''}" ]
+}

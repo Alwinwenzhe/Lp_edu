@@ -1,0 +1,188 @@
+{
+  "uid" : "193cd4dea4469520",
+  "name" : "test_home_door_004_gated_open_Code[case3]",
+  "fullName" : "TestCase_001_ysy.test_ysy_010_home_door.TestYsy010HomeDoor#test_home_door_004_gated_open_Code",
+  "historyId" : "9da707604c58ef7c29a0b0d426889783",
+  "time" : {
+    "start" : 1606871905072,
+    "stop" : 1606871908400,
+    "duration" : 3328
+  },
+  "description" : "\n            用例描述：首页-智慧门禁--人像管理--扫码开门\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页-智慧门禁--人像管理--扫码开门\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：首页-智慧门禁--人像管理--扫码开门\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "扫码开门",
+      "time" : {
+        "start" : 1606871905072,
+        "stop" : 1606871908400,
+        "duration" : 3328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0097', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_004_gated_open_Code', 'case_description': '首页-智慧门禁--扫码开门', 'case_url': '/api/v1/family/gated/openCode?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"trueName\":\"158\",\"houseId\":\"j::familyHouseId\",\"mobile\":\"15828022852\"}', 'case_expect': 'j::nickName', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁--智慧门禁"
+  }, {
+    "name" : "story",
+    "value" : "智慧门禁"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_010_home_door"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy010HomeDoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_010_home_door"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0097', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_004_gated_open_Code', 'case_description': '首页-智慧门禁--扫码开门', 'case_url': '/api/v1/family/gated/openCode?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"trueName\":\"158\",\"houseId\":\"j::familyHouseId\",\"mobile\":\"15828022852\"}', 'case_expect': 'j::nickName', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "bfbb8fda78b831d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825282644,
+        "stop" : 1606825285214,
+        "duration" : 2570
+      }
+    }, {
+      "uid" : "3dbe7511c34ca0ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785381657,
+        "stop" : 1606785384273,
+        "duration" : 2616
+      }
+    }, {
+      "uid" : "c2494555fa890a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739477702,
+        "stop" : 1606739480919,
+        "duration" : 3217
+      }
+    }, {
+      "uid" : "8854212d8b9ae567",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1606736312573,
+        "stop" : 1606736312589,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "679eaf20a4cc05ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606723768739,
+        "stop" : 1606723771422,
+        "duration" : 2683
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "362c0532cf4265d3",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/362c0532cf4265d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825282644,
+          "stop" : 1606825285214,
+          "duration" : 2570
+        }
+      }, {
+        "uid" : "a0ec5fe005f6d853",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/a0ec5fe005f6d853",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785381657,
+          "stop" : 1606785384273,
+          "duration" : 2616
+        }
+      }, {
+        "uid" : "624cc5c33fe9ee21",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/624cc5c33fe9ee21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739477702,
+          "stop" : 1606739480919,
+          "duration" : 3217
+        }
+      }, {
+        "uid" : "7a9b0b38a418fd6b",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/7a9b0b38a418fd6b",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+        "time" : {
+          "start" : 1606736312573,
+          "stop" : 1606736312589,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "193cd4dea4469520.json",
+  "parameterValues" : [ "{'ID': '0097', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_004_gated_open_Code', 'case_description': '首页-智慧门禁--扫码开门', 'case_url': '/api/v1/family/gated/openCode?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"trueName\":\"158\",\"houseId\":\"j::familyHouseId\",\"mobile\":\"15828022852\"}', 'case_expect': 'j::nickName', 'Comment': '', 'advice': ''}" ]
+}

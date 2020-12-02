@@ -1,0 +1,73 @@
+{
+  "uid" : "118e8ecfa150c06e",
+  "name" : "test_yhz_001_get_people_mark_list[case0]",
+  "fullName" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service.TestYhz002WarmHearService#test_yhz_001_get_people_mark_list",
+  "historyId" : "84f0c62cdc6bf4441cdd781cb3b606b7",
+  "time" : {
+    "start" : 1606455008293,
+    "stop" : 1606455008293,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：敬老送餐--获取老人餐食要求及禁忌\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：敬老送餐--获取老人餐食要求及禁忌\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_yhz_001_get_people_mark_list at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_002_yhz_old_regitster\\test_yhz_002_Warm_heart_service.py:17",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_002_yhz_old_regitster\\\\test_yhz_002_Warm_heart_service.py', 18, \"Skipped: got empty parameter set ['case'], function test_yhz_001_get_people_mark_list at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_002_yhz_old_regitster\\\\test_yhz_002_Warm_heart_service.py:17\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "老人登记_暖心服务"
+  }, {
+    "name" : "story",
+    "value" : "敬老送餐--获取老人餐食要求及禁忌"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_yhz_001_get_people_mark_list at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_002_yhz_old_regitster\\test_yhz_002_Warm_heart_service.py:17')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_002_yhz_old_regitster"
+  }, {
+    "name" : "suite",
+    "value" : "test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYhz002WarmHearService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "1676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_yhz_001_get_people_mark_list at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_002_yhz_old_regitster\\test_yhz_002_Warm_heart_service.py:17')" ]
+  },
+  "source" : "118e8ecfa150c06e.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

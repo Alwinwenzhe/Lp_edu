@@ -1,0 +1,103 @@
+{
+  "uid" : "2932a3082e34bb7d",
+  "name" : "test_ysy_pro_005_get_Property_Info[case2]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_005_get_Property_Info",
+  "historyId" : "6d0c7faf06892a0c9c791fc428fa9017",
+  "time" : {
+    "start" : 1606391603798,
+    "stop" : 1606391603798,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'cursor' referenced before assignment",
+  "statusTrace" : "self = <test_ysy_pro_002_home.TestYsyPro002Home object at 0x0000020E0B6146C8>\ncase = {'Comment': '', 'ID': '2024', 'advice': '', 'case_description': '首页--顶部物业信息', ...}\n\n    @allure.step('顶部banner宣传')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_005_get_Property_Info'))\n    def test_ysy_pro_005_get_Property_Info(self, case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'get')\n\nTestCase_004_ysy_property\\test_ysy_pro_002_home.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:357: in test_case_method\n    expect, api_url, headers, params, global_var = self.param_get_deal(case)\nCommon\\new_tool_a.py:50: in param_get_deal\n    expect = self.multiple_data(envir,expect)\nCommon\\new_tool_a.py:118: in multiple_data\n    result = self.single_sql_data_deal(envir, i)\nCommon\\new_tool_a.py:183: in single_sql_data_deal\n    val = oper_s.execute_sql(val)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.operate_sql_al.OperateSqlAl object at 0x0000020E0B736B48>\nsql_str = \"SELECT IFNULL(pi.property_name,'Get data error') from property_employees pe LEFT JOIN property_info pi ON pe.id_property_info=pi.id WHERE pe.mobile ='15928905995'\"\n\n    def execute_sql(self, sql_str):\n        try:\n            db = pymysql.connect(host=self.dbhost, port=self.dbport, user=self.db_user, passwd=self.pwd, db=self.dbname,\n                                 charset='utf8')\n            cursor = db.cursor()  # 创建一个游标\n            cursor.execute(sql_str)\n            data = cursor.fetchone()\n            data = self.bytes_to_str(data[0])\n            return data\n        except Exception:\n            print('\\033[1;33m\"sql执行异常，请检查\"\\033[3;31m')\n        finally:\n>           cursor.close()\nE           UnboundLocalError: local variable 'cursor' referenced before assignment\n\nCommon\\operate_sql_al.py:71: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'cursor' referenced before assignment",
+    "statusTrace" : "self = <test_ysy_pro_002_home.TestYsyPro002Home object at 0x0000020E0B6146C8>\ncase = {'Comment': '', 'ID': '2024', 'advice': '', 'case_description': '首页--顶部物业信息', ...}\n\n    @allure.step('顶部banner宣传')\n    @pytest.mark.parametrize('case', excel.get_excel_data('ysy_pro_005_get_Property_Info'))\n    def test_ysy_pro_005_get_Property_Info(self, case):\n        \"\"\"\n            用例描述：物业app密码登录\n        \"\"\"\n>       self.new.test_case_method(case, 'get')\n\nTestCase_004_ysy_property\\test_ysy_pro_002_home.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:357: in test_case_method\n    expect, api_url, headers, params, global_var = self.param_get_deal(case)\nCommon\\new_tool_a.py:50: in param_get_deal\n    expect = self.multiple_data(envir,expect)\nCommon\\new_tool_a.py:118: in multiple_data\n    result = self.single_sql_data_deal(envir, i)\nCommon\\new_tool_a.py:183: in single_sql_data_deal\n    val = oper_s.execute_sql(val)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.operate_sql_al.OperateSqlAl object at 0x0000020E0B736B48>\nsql_str = \"SELECT IFNULL(pi.property_name,'Get data error') from property_employees pe LEFT JOIN property_info pi ON pe.id_property_info=pi.id WHERE pe.mobile ='15928905995'\"\n\n    def execute_sql(self, sql_str):\n        try:\n            db = pymysql.connect(host=self.dbhost, port=self.dbport, user=self.db_user, passwd=self.pwd, db=self.dbname,\n                                 charset='utf8')\n            cursor = db.cursor()  # 创建一个游标\n            cursor.execute(sql_str)\n            data = cursor.fetchone()\n            data = self.bytes_to_str(data[0])\n            return data\n        except Exception:\n            print('\\033[1;33m\"sql执行异常，请检查\"\\033[3;31m')\n        finally:\n>           cursor.close()\nE           UnboundLocalError: local variable 'cursor' referenced before assignment\n\nCommon\\operate_sql_al.py:71: UnboundLocalError",
+    "steps" : [ {
+      "name" : "顶部banner宣传",
+      "time" : {
+        "start" : 1606391603798,
+        "stop" : 1606391603798,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "UnboundLocalError: local variable 'cursor' referenced before assignment\n",
+      "statusTrace" : "  File \"E:\\programs\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py\", line 60, in test_ysy_pro_005_get_Property_Info\n    self.new.test_case_method(case, 'get')\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 357, in test_case_method\n    expect, api_url, headers, params, global_var = self.param_get_deal(case)\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 50, in param_get_deal\n    expect = self.multiple_data(envir,expect)\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 118, in multiple_data\n    result = self.single_sql_data_deal(envir, i)\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 183, in single_sql_data_deal\n    val = oper_s.execute_sql(val)\n  File \"E:\\python_code\\Api_automation\\Common\\operate_sql_al.py\", line 71, in execute_sql\n    cursor.close()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2024', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_005_get_Property_Info', 'case_description': '首页--顶部物业信息', 'case_url': '/api/v1/user/getPropertyInfo?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(pi.property_name,'Get data error') from property_employees pe LEFT JOIN property_info pi ON pe.id_property_info=pi.id WHERE pe.mobile ='{0[0]}'format(c::ysy_pro_user);\", 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "3284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2024', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_005_get_Property_Info', 'case_description': '首页--顶部物业信息', 'case_url': '/api/v1/user/getPropertyInfo?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(pi.property_name,'Get data error') from property_employees pe LEFT JOIN property_info pi ON pe.id_property_info=pi.id WHERE pe.mobile ='{0[0]}'format(c::ysy_pro_user);\", 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2932a3082e34bb7d.json",
+  "parameterValues" : [ "{'ID': '2024', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_005_get_Property_Info', 'case_description': '首页--顶部物业信息', 'case_url': '/api/v1/user/getPropertyInfo?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(pi.property_name,'Get data error') from property_employees pe LEFT JOIN property_info pi ON pe.id_property_info=pi.id WHERE pe.mobile ='{0[0]}'format(c::ysy_pro_user);\", 'Comment': '', 'advice': ''}" ]
+}

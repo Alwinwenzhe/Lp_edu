@@ -1,0 +1,73 @@
+{
+  "uid" : "14fd0562348e38d0",
+  "name" : "test_invitation_001_addMenberStep[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_004_health.TestYsy004Health#test_invitation_001_addMenberStep",
+  "historyId" : "67eaf4e091e084acd4140559c6aebb54",
+  "time" : {
+    "start" : 1605963115272,
+    "stop" : 1605963115272,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：添加成员步数，该用例数据源来自excel\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：添加成员步数，该用例数据源来自excel\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_invitation_001_addMenberStep at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_004_health.py:18",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_004_health.py', 19, \"Skipped: got empty parameter set ['case'], function test_invitation_001_addMenberStep at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_004_health.py:18\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--健康"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "添加成員步數"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_invitation_001_addMenberStep at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_004_health.py:18')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_004_health"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy004Health"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "33648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_004_health"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_invitation_001_addMenberStep at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_004_health.py:18')" ]
+  },
+  "source" : "14fd0562348e38d0.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

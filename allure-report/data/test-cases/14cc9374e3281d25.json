@@ -1,0 +1,97 @@
+{
+  "uid" : "14cc9374e3281d25",
+  "name" : "test_ysy_pro_001_user_login[case1]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_001_login.TestYsyPro001Login#test_ysy_pro_001_user_login",
+  "historyId" : "564391ffa5735440e718d68d65292e2e",
+  "time" : {
+    "start" : 1605874407421,
+    "stop" : 1605874409709,
+    "duration" : 2288
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1605874407421,
+        "stop" : 1605874409709,
+        "duration" : 2288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2002', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录--缺少手机号', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"mobile\":\"\",\"password\":\"123456\"}', 'case_expect': '手机号为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro001Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2002', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录--缺少手机号', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"mobile\":\"\",\"password\":\"123456\"}', 'case_expect': '手机号为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14cc9374e3281d25.json",
+  "parameterValues" : [ "{'ID': '2002', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录--缺少手机号', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"mobile\":\"\",\"password\":\"123456\"}', 'case_expect': '手机号为空', 'Comment': '', 'advice': ''}" ]
+}

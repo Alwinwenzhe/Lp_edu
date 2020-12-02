@@ -1,0 +1,97 @@
+{
+  "uid" : "27419ccd2d98d591",
+  "name" : "test_home_door_005_device_door_open[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_010_home_door.TestYsy010HomeDoor#test_home_door_005_device_door_open",
+  "historyId" : "7b4a3cf2770f2a0e66caad5f4b22aed8",
+  "time" : {
+    "start" : 1606871908400,
+    "stop" : 1606871911339,
+    "duration" : 2939
+  },
+  "description" : "\n            用例描述：首页-智慧门禁--人像管理--远程开门\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页-智慧门禁--人像管理--远程开门\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：首页-智慧门禁--人像管理--远程开门\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "远程开门",
+      "time" : {
+        "start" : 1606871908400,
+        "stop" : 1606871911339,
+        "duration" : 2939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0098', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_005_device_door_open', 'case_description': '首页-智慧门禁--远程开门--sign错误', 'case_url': '/gate/api/v1/device/door/open', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"curTime\":\"j::curTime\",\"nonce\":\"j::nonce\",\"sign\":\"93196714a4e04de26c7ff4ebc215\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"openMode\":0,\"biotopeId\":\"j::familyBiotopeId\",\"deviceCode\":\"882c1f37789700000000\",\"userType\":0,\"userId\":\"j::userId\"}', 'case_expect': '数据签名验证失败', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁--智慧门禁"
+  }, {
+    "name" : "story",
+    "value" : "智慧门禁"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_010_home_door"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy010HomeDoor"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_010_home_door"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0098', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_005_device_door_open', 'case_description': '首页-智慧门禁--远程开门--sign错误', 'case_url': '/gate/api/v1/device/door/open', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"curTime\":\"j::curTime\",\"nonce\":\"j::nonce\",\"sign\":\"93196714a4e04de26c7ff4ebc215\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"openMode\":0,\"biotopeId\":\"j::familyBiotopeId\",\"deviceCode\":\"882c1f37789700000000\",\"userType\":0,\"userId\":\"j::userId\"}', 'case_expect': '数据签名验证失败', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27419ccd2d98d591.json",
+  "parameterValues" : [ "{'ID': '0098', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_door_005_device_door_open', 'case_description': '首页-智慧门禁--远程开门--sign错误', 'case_url': '/gate/api/v1/device/door/open', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"curTime\":\"j::curTime\",\"nonce\":\"j::nonce\",\"sign\":\"93196714a4e04de26c7ff4ebc215\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"openMode\":0,\"biotopeId\":\"j::familyBiotopeId\",\"deviceCode\":\"882c1f37789700000000\",\"userType\":0,\"userId\":\"j::userId\"}', 'case_expect': '数据签名验证失败', 'Comment': '', 'advice': ''}" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "eb9609a588f2cdf",
+  "name" : "test_yhz_001_get_people_mark_list[case1]",
+  "fullName" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service.TestYhz002WarmHearService#test_yhz_001_get_people_mark_list",
+  "historyId" : "5896f0e945b926020fb16de46e4422f1",
+  "time" : {
+    "start" : 1606785408028,
+    "stop" : 1606785410446,
+    "duration" : 2418
+  },
+  "description" : "\n            用例描述：敬老送餐--获取老人餐食要求及禁忌\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：敬老送餐--获取老人餐食要求及禁忌\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "敬老送餐--获取老人餐食要求及禁忌"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "老人登记_暖心服务"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_002_yhz_old_regitster"
+  }, {
+    "name" : "suite",
+    "value" : "test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYhz002WarmHearService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "10520-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': 3009.0, 'envir': 'yhz_release', '前置用例': '', 'module': 'yhz_001_get_people_mark_list', 'case_description': '获取老人的餐食要求及禁忌--缺少token', 'case_url': '/api/yhz/send_food/get_people_mark_list?id=349', 'case_header': '{\"Authori-zation\":\"\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '请登录', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb9609a588f2cdf.json",
+  "parameterValues" : [ "{'ID': 3009.0, 'envir': 'yhz_release', '前置用例': '', 'module': 'yhz_001_get_people_mark_list', 'case_description': '获取老人的餐食要求及禁忌--缺少token', 'case_url': '/api/yhz/send_food/get_people_mark_list?id=349', 'case_header': '{\"Authori-zation\":\"\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '请登录', 'Comment': '', 'advice': ''}" ]
+}

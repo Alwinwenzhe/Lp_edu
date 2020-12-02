@@ -1,0 +1,67 @@
+{
+  "uid" : "68f6030387b781e",
+  "name" : "test_home_002_topic[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_002_topic",
+  "historyId" : "2a95706b979052d22f59afd134284af8",
+  "time" : {
+    "start" : 1606736311764,
+    "stop" : 1606736311764,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--话题专栏\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--话题专栏\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'cursor' referenced before assignment",
+  "statusTrace" : "self = <test_ysy_005_home.TestYsy005Home object at 0x000002BE02591D88>\ncase = {'Comment': 'userid是非必填项', 'ID': '0064', 'advice': '', 'case_description': '首页--话题专栏--缺少userid', ...}\n\n>   ???\n\nE:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_005_home.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:359: in test_case_method\n    expect, api_url, headers, params, global_var = self.param_get_deal(case)\nCommon\\new_tool_a.py:52: in param_get_deal\n    expect = self.multiple_data(envir,expect)\nCommon\\new_tool_a.py:120: in multiple_data\n    result = self.single_sql_data_deal(envir, i)\nCommon\\new_tool_a.py:188: in single_sql_data_deal\n    val = oper_s.execute_sql(data)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.operate_sql_al.OperateSqlAl object at 0x000002BE02425988>\nsql_str = \"SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1\"\n\n    def execute_sql(self, sql_str):\n        try:\n            db = pymysql.connect(host=self.dbhost, port=self.dbport, user=self.db_user, passwd=self.pwd, db=self.dbname,\n                                 charset='utf8')\n            cursor = db.cursor()  # 创建一个游标\n            cursor.execute(sql_str)\n            data = cursor.fetchone()\n            data = self.bytes_to_str(data[0])\n            return data\n        except Exception:\n            print('\\033[1;33m\"sql执行异常，请检查\"\\033[0m \\n')\n        finally:\n>           cursor.close()\nE           UnboundLocalError: local variable 'cursor' referenced before assignment\n\nCommon\\operate_sql_al.py:77: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "10564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0064', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_002_topic', 'case_description': '首页--话题专栏--缺少userid', 'case_url': '/api/v1/topic?userId=&typeId=&pageSize=5&pageNo=1', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1;\", 'Comment': 'userid是非必填项', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68f6030387b781e.json",
+  "parameterValues" : [ "{'ID': '0064', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_002_topic', 'case_description': '首页--话题专栏--缺少userid', 'case_url': '/api/v1/topic?userId=&typeId=&pageSize=5&pageNo=1', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': \"SELECT IFNULL(t.topic_title,'query data is error') FROM topic t WHERE t.is_valid = 'Y' ORDER BY t.create_time DESC LIMIT 1;\", 'Comment': 'userid是非必填项', 'advice': ''}" ]
+}

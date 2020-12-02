@@ -1,0 +1,68 @@
+{
+  "uid" : "262df9424b4b4ad7",
+  "name" : "test_yhz_002_get_send_food_record_list[case0]",
+  "fullName" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service.TestYhz002WarmHearService#test_yhz_002_get_send_food_record_list",
+  "historyId" : "f9b1d800e1f611bc111c0a84bf562fe7",
+  "time" : {
+    "start" : 1606042501398,
+    "stop" : 1606042503914,
+    "duration" : 2516
+  },
+  "description" : "\n            用例描述：送餐记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：送餐记录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "老人登记_暖心服务"
+  }, {
+    "name" : "story",
+    "value" : "送餐记录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_002_yhz_old_regitster"
+  }, {
+    "name" : "suite",
+    "value" : "test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYhz002WarmHearService"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "17776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_002_yhz_old_regitster.test_yhz_002_Warm_heart_service"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': 3010.0, 'envir': 'yhz_test', '前置用例': '', 'module': 'yhz_002_get_send_food_record_list', 'case_description': '送餐记录列表', 'case_url': '/api/yhz/org/get_send_food_record_list?page=1&limit=9', 'case_header': '{\"Authori-zation\":\"Bearer j::token\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '获取成功', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "262df9424b4b4ad7.json",
+  "parameterValues" : [ "{'ID': 3010.0, 'envir': 'yhz_test', '前置用例': '', 'module': 'yhz_002_get_send_food_record_list', 'case_description': '送餐记录列表', 'case_url': '/api/yhz/org/get_send_food_record_list?page=1&limit=9', 'case_header': '{\"Authori-zation\":\"Bearer j::token\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '获取成功', 'Comment': '', 'advice': ''}" ]
+}

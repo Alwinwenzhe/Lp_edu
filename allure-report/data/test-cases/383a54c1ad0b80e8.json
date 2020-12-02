@@ -1,0 +1,109 @@
+{
+  "uid" : "383a54c1ad0b80e8",
+  "name" : "test_repair_004_repair_userCancel[case2]",
+  "fullName" : "TestCase_001_ysy.test_ysy_008_repair.TestYsy007Myself#test_repair_004_repair_userCancel",
+  "historyId" : "64e12fdc3c39f39ce463dbbd30d1c774",
+  "time" : {
+    "start" : 1605874348005,
+    "stop" : 1605874348469,
+    "duration" : 464
+  },
+  "description" : "\n            用例描述：报修历史记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：报修历史记录\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_ysy_008_repair.TestYsy007Myself object at 0x0000011EACD593C8>\ncase = {'Comment': 'accessToken为空时未校验，已提需求，但未增加该用例，', 'ID': '0032', 'advice': '', 'case_description': '小区服务--取消报修订单', ...}\n\n    @allure.step(\"业主取消报修订单\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('repair_004_repair_userCancel'))\n    def test_repair_004_repair_userCancel(self, case):\n        \"\"\"\n            用例描述：报修历史记录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_001_ysy\\test_ysy_008_repair.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x0000011EACECA4C8>\nbody = {'code': 12006, 'msg': '类目信息不存在', 'ts': 1605874349433}\nexpected_msg = 'code\": 0'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：报修历史记录\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_ysy_008_repair.TestYsy007Myself object at 0x0000011EACD593C8>\ncase = {'Comment': 'accessToken为空时未校验，已提需求，但未增加该用例，', 'ID': '0032', 'advice': '', 'case_description': '小区服务--取消报修订单', ...}\n\n    @allure.step(\"业主取消报修订单\")\n    @pytest.mark.parametrize('case', excel.get_excel_data('repair_004_repair_userCancel'))\n    def test_repair_004_repair_userCancel(self, case):\n        \"\"\"\n            用例描述：报修历史记录\n        \"\"\"\n>       self.new.test_case_method(case, 'post')\n\nTestCase_001_ysy\\test_ysy_008_repair.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nCommon\\new_tool_a.py:360: in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\nCommon\\Assert.py:118: in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x0000011EACECA4C8>\nbody = {'code': 12006, 'msg': '类目信息不存在', 'ts': 1605874349433}\nexpected_msg = 'code\": 0'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)         # 将body序列化为JSON格式的str\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\nCommon\\Assert.py:65: AssertionError",
+    "steps" : [ {
+      "name" : "业主取消报修订单",
+      "time" : {
+        "start" : 1605874348005,
+        "stop" : 1605874348461,
+        "duration" : 456
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"E:\\programs\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_008_repair.py\", line 43, in test_repair_004_repair_userCancel\n    self.new.test_case_method(case, 'post')\n  File \"E:\\python_code\\Api_automation\\Common\\new_tool_a.py\", line 360, in test_case_method\n    self.test.assert_common(response['code'], response['body'], expect, response['time_consuming'])\n  File \"E:\\python_code\\Api_automation\\Common\\Assert.py\", line 118, in assert_common\n    assert self.assert_in_text(res_body, res_expect)\n  File \"E:\\python_code\\Api_automation\\Common\\Assert.py\", line 65, in assert_in_text\n    assert expected_msg in text\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0032', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_004_repair_userCancel', 'case_description': '小区服务--取消报修订单', 'case_url': '/api/v1/area/repair/userCancel?userId=j::userId&repairId=j::repairId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': \"repairId$$SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'case_params': '', 'case_expect': 'code\": 0', 'Comment': 'accessToken为空时未校验，已提需求，但未增加该用例，', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b12d0f5b5e4bc0e4",
+      "name" : "log",
+      "source" : "b12d0f5b5e4bc0e4.txt",
+      "type" : "text/plain",
+      "size" : 120
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "小区服务--报事报修"
+  }, {
+    "name" : "story",
+    "value" : "报事报修"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_008_repair"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy007Myself"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_008_repair"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0032', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_004_repair_userCancel', 'case_description': '小区服务--取消报修订单', 'case_url': '/api/v1/area/repair/userCancel?userId=j::userId&repairId=j::repairId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': \"repairId$$SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'case_params': '', 'case_expect': 'code\": 0', 'Comment': 'accessToken为空时未校验，已提需求，但未增加该用例，', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "383a54c1ad0b80e8.json",
+  "parameterValues" : [ "{'ID': '0032', 'envir': 'ysy_release', '前置用例': '', 'module': 'repair_004_repair_userCancel', 'case_description': '小区服务--取消报修订单', 'case_url': '/api/v1/area/repair/userCancel?userId=j::userId&repairId=j::repairId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': \"repairId$$SELECT IFNULL(r.id,'Get data error') from repair r WHERE r.repair_source = '1' AND r.id_user='{0[0]}' AND r.status IN (1,2,3,4,7,8,10) ORDER BY r.create_time DESC LIMIT 1format(j::userId);\", 'case_params': '', 'case_expect': 'code\": 0', 'Comment': 'accessToken为空时未校验，已提需求，但未增加该用例，', 'advice': ''}" ]
+}

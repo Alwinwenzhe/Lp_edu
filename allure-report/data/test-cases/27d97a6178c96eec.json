@@ -1,0 +1,97 @@
+{
+  "uid" : "27d97a6178c96eec",
+  "name" : "test_fee_004_immediately_Fee[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_009_biotope_fee.TestYsy009BiotopeFee#test_fee_004_immediately_Fee",
+  "historyId" : "96dca24cf292828774573d5b45fd8e45",
+  "time" : {
+    "start" : 1605838705285,
+    "stop" : 1605838707523,
+    "duration" : 2238
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "预存缴费",
+      "time" : {
+        "start" : 1605838705285,
+        "stop" : 1605838707523,
+        "duration" : 2238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0039', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '客户ID不能为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "物业缴费"
+  }, {
+    "name" : "story",
+    "value" : "物业预缴"
+  }, {
+    "name" : "feature",
+    "value" : "小区服务"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_009_biotope_fee"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy009BiotopeFee"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "27472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_009_biotope_fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0039', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '客户ID不能为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27d97a6178c96eec.json",
+  "parameterValues" : [ "{'ID': '0039', 'envir': 'ysy_release', '前置用例': '', 'module': 'fee_005_get_prepay_resource_info', 'case_description': '小区服务--物业缴费-预存缴费', 'case_url': '/api/v1/property/prepay/getPrepayResourceInfo?userId=j::userId&customerId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"c::ysy_accesstoken\",\"ssoToken\":\"j::ssoToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '客户ID不能为空', 'Comment': '', 'advice': ''}" ]
+}

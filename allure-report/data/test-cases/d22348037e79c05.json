@@ -1,0 +1,1223 @@
+{
+  "uid" : "d22348037e79c05",
+  "name" : "test_mall_001_mall_index[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_006_mall.TestYsy006Mall#test_mall_001_mall_index",
+  "historyId" : "a34e21118ea4e0510c67b00af417068e",
+  "time" : {
+    "start" : 1606872617443,
+    "stop" : 1606872617443,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--访问状态\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--访问状态\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_006_mall.py', 20, \"Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_001_ysy\\\\test_ysy_006_mall.py:19\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--商城"
+  }, {
+    "name" : "story",
+    "value" : "商城首页"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_006_mall"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy006Mall"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "7652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_006_mall"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "bd58191a51eee0d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606871750987,
+        "stop" : 1606871753363,
+        "duration" : 2376
+      }
+    }, {
+      "uid" : "73c4369619d5c419",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825186344,
+        "stop" : 1606825188704,
+        "duration" : 2360
+      }
+    }, {
+      "uid" : "a10f39127004ce40",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606804078803,
+        "stop" : 1606804078803,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "428a782ecb5e4957",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606804038297,
+        "stop" : 1606804038297,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "804fecb859bb3315",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606804009734,
+        "stop" : 1606804009734,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "33441fca222ec697",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606789917589,
+        "stop" : 1606789917589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6cce2f134c4ae29d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785289544,
+        "stop" : 1606785291736,
+        "duration" : 2192
+      }
+    }, {
+      "uid" : "3647fc9bd8a715ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739359375,
+        "stop" : 1606739361839,
+        "duration" : 2464
+      }
+    }, {
+      "uid" : "754e27ec10f7aa2c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606736311927,
+        "stop" : 1606736311927,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "951dcd30776300ff",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606727619936,
+        "stop" : 1606727619936,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f3f958c1138f03b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606727571387,
+        "stop" : 1606727571387,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e044e1a5c994c8c9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606727495995,
+        "stop" : 1606727495995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e2dcb7f9625fe06",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606727381685,
+        "stop" : 1606727381685,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2ff6c96342ee6a3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606723761145,
+        "stop" : 1606723761145,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d0c786d24deae863",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606723488780,
+        "stop" : 1606723488780,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cb85c8ad5560178e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606723377083,
+        "stop" : 1606723377083,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14eaad5e9c5ab8c9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606721351517,
+        "stop" : 1606721351517,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db3affbaf87ffc79",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606721128924,
+        "stop" : 1606721128924,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b0cb0c72bd3dc015",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606720872236,
+        "stop" : 1606720872236,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7a81f1cc7fcd5ca",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606720611669,
+        "stop" : 1606720611669,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fee4c580ebe96d9c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606720492019,
+        "stop" : 1606720492019,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e35a0a82e361867",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606720421619,
+        "stop" : 1606720421619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68e7f034b76897de",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606720265847,
+        "stop" : 1606720265847,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e807d384772ca67",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606717882936,
+        "stop" : 1606717882936,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "da656f3cb1788604",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606707131061,
+        "stop" : 1606707131061,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aeb3f131d404bf38",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606706803176,
+        "stop" : 1606706803176,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac008f103f14b43c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606706708739,
+        "stop" : 1606706708739,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15de6f8774146158",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606705512979,
+        "stop" : 1606705512979,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "861a3f665dcc3082",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606702486209,
+        "stop" : 1606702486209,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a5d429e11f49eec",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606698909279,
+        "stop" : 1606698909279,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1041ad83e721e631",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606620814716,
+        "stop" : 1606620814716,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7aa88e88cfdf041f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606620698444,
+        "stop" : 1606620698444,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16bf8303090b9b0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606619771699,
+        "stop" : 1606619774257,
+        "duration" : 2558
+      }
+    }, {
+      "uid" : "973fab97fffb1a51",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606619198620,
+        "stop" : 1606619198620,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b1532dce5081568e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606572941184,
+        "stop" : 1606572941184,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eaa5033ba6024a11",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606528776782,
+        "stop" : 1606528776782,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7dd6bf74bdf8647",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606497638697,
+        "stop" : 1606497638697,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4537cd1702a3144",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606474270901,
+        "stop" : 1606474270901,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e65d38f480ea5d29",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606455674398,
+        "stop" : 1606455674398,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84b4b126d6787075",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606455102798,
+        "stop" : 1606455102798,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a52e6712624e5905",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606455058647,
+        "stop" : 1606455058647,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78eda71e633941e9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606454925838,
+        "stop" : 1606454925838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7b13cb983aab8ca3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606447102110,
+        "stop" : 1606447102110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27171fae69f19623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606445832306,
+        "stop" : 1606445834549,
+        "duration" : 2243
+      }
+    }, {
+      "uid" : "5cd7c20054421114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444763950,
+        "stop" : 1606444766156,
+        "duration" : 2206
+      }
+    }, {
+      "uid" : "251726eab9f5a601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444175791,
+        "stop" : 1606444178006,
+        "duration" : 2215
+      }
+    }, {
+      "uid" : "3dfe25766fef86c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606439505922,
+        "stop" : 1606439508162,
+        "duration" : 2240
+      }
+    }, {
+      "uid" : "bf050f13d741069e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606391602864,
+        "stop" : 1606391602880,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "4b0620c2ac6a1e28",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606371859965,
+        "stop" : 1606371859965,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfe9cd95216aa1b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606371832097,
+        "stop" : 1606371832097,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "77757c5da2511ad9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606371131927,
+        "stop" : 1606371131927,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "584236bba4da6caa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606370487597,
+        "stop" : 1606370487597,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bc87149203d578bb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1606359886229,
+        "stop" : 1606359886229,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "613f0b1dc9624cb2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606353242038,
+        "stop" : 1606353242038,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db26cfeb2bba59b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606310088596,
+        "stop" : 1606310090779,
+        "duration" : 2183
+      }
+    }, {
+      "uid" : "9f90f1ca9b2cbdda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606302734099,
+        "stop" : 1606302736312,
+        "duration" : 2213
+      }
+    }, {
+      "uid" : "3b8689c179ac5ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606301596324,
+        "stop" : 1606301598501,
+        "duration" : 2177
+      }
+    }, {
+      "uid" : "6150d127269bccee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290624256,
+        "stop" : 1606290626464,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "b35cf4c98fe139f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606266737228,
+        "stop" : 1606266739437,
+        "duration" : 2209
+      }
+    }, {
+      "uid" : "db35b61d70ff67a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606215143659,
+        "stop" : 1606215145879,
+        "duration" : 2220
+      }
+    }, {
+      "uid" : "9b9750963ec73a4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606128811531,
+        "stop" : 1606128813755,
+        "duration" : 2224
+      }
+    }, {
+      "uid" : "3c391689e39ed3d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606094617699,
+        "stop" : 1606094620019,
+        "duration" : 2320
+      }
+    }, {
+      "uid" : "c6047eba3aa9d22c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606042404718,
+        "stop" : 1606042407062,
+        "duration" : 2344
+      }
+    }, {
+      "uid" : "ee603ed781b81c2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606008072811,
+        "stop" : 1606008075059,
+        "duration" : 2248
+      }
+    }, {
+      "uid" : "e9f514ef490392a2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605967036185,
+        "stop" : 1605967036185,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b606715679eb07c9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605967014201,
+        "stop" : 1605967014201,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5a8b14b58ff7028",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605966839685,
+        "stop" : 1605966839685,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "28f9e3b25157e6a3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605966758502,
+        "stop" : 1605966758502,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "141c571bbed27ff6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605963461261,
+        "stop" : 1605963461261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c864ca86227a45d2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605963445196,
+        "stop" : 1605963445196,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3dd1317d0f615ede",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605963115328,
+        "stop" : 1605963115328,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f20dfd2a9260f97",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605962939753,
+        "stop" : 1605962939753,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ef55bbaa089daa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605962916191,
+        "stop" : 1605962916191,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d9388bb2dd8f6ec5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605962863838,
+        "stop" : 1605962863838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6143c5f3dbe889a9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605962814422,
+        "stop" : 1605962814422,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "135aa49fecac6d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605961032221,
+        "stop" : 1605961034428,
+        "duration" : 2207
+      }
+    }, {
+      "uid" : "7deb2a6177b55aea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605922873016,
+        "stop" : 1605922875368,
+        "duration" : 2352
+      }
+    }, {
+      "uid" : "8f1a0ecea63f86e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605921542803,
+        "stop" : 1605921545040,
+        "duration" : 2237
+      }
+    }, {
+      "uid" : "fbfa9a617ad717ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605874311316,
+        "stop" : 1605874313509,
+        "duration" : 2193
+      }
+    }, {
+      "uid" : "4d568a7c04606032",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605860076297,
+        "stop" : 1605860076297,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cbf3445de7ffd8f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605860043830,
+        "stop" : 1605860043830,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "167135936836623d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605859684989,
+        "stop" : 1605859684989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "baa40cf214a45e7e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605859635455,
+        "stop" : 1605859635455,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7ca046f96b67",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605858858757,
+        "stop" : 1605858858757,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a3c0dbc7ab9d4543",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605858616421,
+        "stop" : 1605858616421,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "17e398b01b803cc8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605858542545,
+        "stop" : 1605858542545,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e23e64a7c3b9fd9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605858494343,
+        "stop" : 1605858494343,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "47fcfbedb1d6a656",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605858009894,
+        "stop" : 1605858009894,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bde5ff2cf782976f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605838641984,
+        "stop" : 1605838644247,
+        "duration" : 2263
+      }
+    }, {
+      "uid" : "d92991b4157d115b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1605834744103,
+        "stop" : 1605834744103,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c3dfc22da765a05c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605795413428,
+        "stop" : 1605795415635,
+        "duration" : 2207
+      }
+    }, {
+      "uid" : "ab63746825e19369",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605790935834,
+        "stop" : 1605790938168,
+        "duration" : 2334
+      }
+    }, {
+      "uid" : "a6f6f5d61e95ffc5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605790631201,
+        "stop" : 1605790631201,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "950570d2765cafc7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605790374439,
+        "stop" : 1605790374439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bcdd5548c2a8f95d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605748618137,
+        "stop" : 1605748618137,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "375290415d38d949",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\python_code\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605704528174,
+        "stop" : 1605704528174,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6510f31fb75969",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613587088,
+        "stop" : 1605613589301,
+        "duration" : 2213
+      }
+    }, {
+      "uid" : "ed89afeee40da5ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605525020357,
+        "stop" : 1605525022603,
+        "duration" : 2246
+      }
+    }, {
+      "uid" : "17d5682dfe12d4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605487935136,
+        "stop" : 1605487937322,
+        "duration" : 2186
+      }
+    }, {
+      "uid" : "15c7ce7c607bcbef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605437538924,
+        "stop" : 1605437541112,
+        "duration" : 2188
+      }
+    }, {
+      "uid" : "66e868b0a3a4875e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605406675596,
+        "stop" : 1605406675596,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6bb0c49f26431f8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605401535493,
+        "stop" : 1605401537664,
+        "duration" : 2171
+      }
+    }, {
+      "uid" : "52eac0b83d086783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605351137232,
+        "stop" : 1605351139403,
+        "duration" : 2171
+      }
+    }, {
+      "uid" : "8ba692dcf61bd1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605315133559,
+        "stop" : 1605315135733,
+        "duration" : 2174
+      }
+    }, {
+      "uid" : "158ef3220e3f4d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605264734027,
+        "stop" : 1605264736199,
+        "duration" : 2172
+      }
+    }, {
+      "uid" : "8e9bd1ad1f4c5d3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605253588368,
+        "stop" : 1605253588368,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d592f7709868af5d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605238525214,
+        "stop" : 1605238525214,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3d1de6c6fd7c54ca",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605238198092,
+        "stop" : 1605238198092,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7aabb5abb2b3b1ae",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+      "time" : {
+        "start" : 1605237865131,
+        "stop" : 1605237865131,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 26,
+        "passed" : 101,
+        "unknown" : 0,
+        "total" : 132
+      },
+      "items" : [ {
+        "uid" : "579020853321136d",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/579020853321136d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825186344,
+          "stop" : 1606825188704,
+          "duration" : 2360
+        }
+      }, {
+        "uid" : "14f8e3f2f5f4274",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/14f8e3f2f5f4274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785289544,
+          "stop" : 1606785291736,
+          "duration" : 2192
+        }
+      }, {
+        "uid" : "7610f73a94039d4c",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/7610f73a94039d4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739359375,
+          "stop" : 1606739361839,
+          "duration" : 2464
+        }
+      }, {
+        "uid" : "a4f7a10800f1391a",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/a4f7a10800f1391a",
+        "status" : "broken",
+        "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+        "time" : {
+          "start" : 1606736311927,
+          "stop" : 1606736311927,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bebbb077124aaf8c",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/35/allure/#testresult/bebbb077124aaf8c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1606698909279,
+          "stop" : 1606698909279,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7f38e9f90829bd1",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/34/allure/#testresult/c7f38e9f90829bd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619771699,
+          "stop" : 1606619774257,
+          "duration" : 2558
+        }
+      }, {
+        "uid" : "4336f3b364c558c5",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/33/allure/#testresult/4336f3b364c558c5",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1606619198620,
+          "stop" : 1606619198620,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aac378de86a4fbaa",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/32/allure/#testresult/aac378de86a4fbaa",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1606572941184,
+          "stop" : 1606572941184,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f3a329ed6d8f4a2c",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/31/allure/#testresult/f3a329ed6d8f4a2c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1606528776782,
+          "stop" : 1606528776782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3f3344e86a125d0f",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/30/allure/#testresult/3f3344e86a125d0f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1606497638697,
+          "stop" : 1606497638697,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "56be0a1b0ffac2e1",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/181/allure/#testresult/56be0a1b0ffac2e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605437538924,
+          "stop" : 1605437541112,
+          "duration" : 2188
+        }
+      }, {
+        "uid" : "eea53d5210903b6c",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/180/allure/#testresult/eea53d5210903b6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605401535493,
+          "stop" : 1605401537664,
+          "duration" : 2171
+        }
+      }, {
+        "uid" : "bea43e1f3845a6f8",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/179/allure/#testresult/bea43e1f3845a6f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605351137232,
+          "stop" : 1605351139403,
+          "duration" : 2171
+        }
+      }, {
+        "uid" : "65998778cc7a7d2e",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/178/allure/#testresult/65998778cc7a7d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605315133559,
+          "stop" : 1605315135733,
+          "duration" : 2174
+        }
+      }, {
+        "uid" : "fd2bc876aeb3fce8",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/177/allure/#testresult/fd2bc876aeb3fce8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605264734027,
+          "stop" : 1605264736199,
+          "duration" : 2172
+        }
+      }, {
+        "uid" : "7204b5b0470823c1",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/176/allure/#testresult/7204b5b0470823c1",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1605142229653,
+          "stop" : 1605142229653,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8b28f5746b0ec8ce",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/175/allure/#testresult/8b28f5746b0ec8ce",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1605091827998,
+          "stop" : 1605091827998,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "15bee1156ad2c3e1",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/174/allure/#testresult/15bee1156ad2c3e1",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1605055822352,
+          "stop" : 1605055822352,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f1f78484a8072584",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/173/allure/#testresult/f1f78484a8072584",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_mall_001_mall_index at D:\\Job\\python\\Script\\Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19",
+        "time" : {
+          "start" : 1605005418752,
+          "stop" : 1605005418752,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c3f0f4fd330654c2",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/172/allure/#testresult/c3f0f4fd330654c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993744037,
+          "stop" : 1604993746216,
+          "duration" : 2179
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_mall_001_mall_index at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_001_ysy\\test_ysy_006_mall.py:19')" ]
+  },
+  "source" : "d22348037e79c05.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

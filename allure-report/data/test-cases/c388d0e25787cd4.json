@@ -1,0 +1,1154 @@
+{
+  "uid" : "c388d0e25787cd4",
+  "name" : "test_ysy_pro_003_sign_find_employees_sign[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_003_sign_find_employees_sign",
+  "historyId" : "0f4788c6c6f91c3c68153f9ec09c8d9d",
+  "time" : {
+    "start" : 1606872652341,
+    "stop" : 1606872652341,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述:根据员工Id获取当天最近一次签到记录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述:根据员工Id获取当天最近一次签到记录\n</code></pre>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+  "statusTrace" : "('E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py', 38, \"Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\\\Python_auto_test\\\\Pytest_Api_automation\\\\TestCase_004_ysy_property\\\\test_ysy_pro_002_home.py:37\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "签到记录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "7652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "cf6e1e6b17fc0090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606872014907,
+        "stop" : 1606872017467,
+        "duration" : 2560
+      }
+    }, {
+      "uid" : "bf1e71217051929f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606825376297,
+        "stop" : 1606825378649,
+        "duration" : 2352
+      }
+    }, {
+      "uid" : "39747e191cc470da",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606804083404,
+        "stop" : 1606804083404,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24c7517c2b97e4e0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606804040721,
+        "stop" : 1606804040721,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e0acfc15aa1f5eab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606804009862,
+        "stop" : 1606804009862,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6557966406287628",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606789922102,
+        "stop" : 1606789922102,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4ebd9b2d97240e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606785465592,
+        "stop" : 1606785467799,
+        "duration" : 2207
+      }
+    }, {
+      "uid" : "80d766aae263a8d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606739583234,
+        "stop" : 1606739585614,
+        "duration" : 2380
+      }
+    }, {
+      "uid" : "f127cb43acea836a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606736313058,
+        "stop" : 1606736313058,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e86abb0c5bcbafdf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606727623519,
+        "stop" : 1606727623519,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a700aa66b23e0fe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606727381845,
+        "stop" : 1606727381845,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "636469ca717b80fe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606723771454,
+        "stop" : 1606723771454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be5de163f24d582a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606723491737,
+        "stop" : 1606723491737,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "780fc24aee515ed9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606723378540,
+        "stop" : 1606723378540,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b340f7418f44ae6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606721351995,
+        "stop" : 1606721351995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8cc00e9509c2511f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606721129554,
+        "stop" : 1606721129554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44fe7182a50744da",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606720872308,
+        "stop" : 1606720872308,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25d89248eb198217",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606720613356,
+        "stop" : 1606720613356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9f2b9f00c2518cf6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606720492312,
+        "stop" : 1606720492312,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bc94093db1dd9730",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606720421728,
+        "stop" : 1606720421728,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "905b28d23ca12f5b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606720265971,
+        "stop" : 1606720265971,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3bdcada53f7a76d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606717882996,
+        "stop" : 1606717882996,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bebd1446e2b70081",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606707136785,
+        "stop" : 1606707136785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4cb483e4e89546f2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606706839661,
+        "stop" : 1606706839661,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67a4d821c09e189",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606706709035,
+        "stop" : 1606706709035,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aedf2ac516bf4bc9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606705517812,
+        "stop" : 1606705517812,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae8c580e4828d673",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606698909935,
+        "stop" : 1606698909935,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a89a60b85d0fec2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606620699741,
+        "stop" : 1606620699741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b08329121211c68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606619922836,
+        "stop" : 1606619925046,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "76895df6301820af",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606619201405,
+        "stop" : 1606619201405,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c196e94cd8566ce9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606572943815,
+        "stop" : 1606572943815,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8166415f054c32d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606528779704,
+        "stop" : 1606528779704,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4076561dd23a3621",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606497641743,
+        "stop" : 1606497641743,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab048d550a35cc56",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606474273989,
+        "stop" : 1606474273989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a67f4bd35f2c734f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606455686430,
+        "stop" : 1606455686430,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c37e41326c73d5f0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606455008330,
+        "stop" : 1606455008330,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "debd4a0f09715cad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606445990663,
+        "stop" : 1606445992900,
+        "duration" : 2237
+      }
+    }, {
+      "uid" : "1579018910e47795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444904762,
+        "stop" : 1606444906990,
+        "duration" : 2228
+      }
+    }, {
+      "uid" : "225a7599a5c49907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606444316534,
+        "stop" : 1606444318755,
+        "duration" : 2221
+      }
+    }, {
+      "uid" : "c87079da808fd63a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606439645387,
+        "stop" : 1606439647595,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "1f6aca97d1c02a6d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606391603698,
+        "stop" : 1606391603698,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6a50a9f846c0aa4c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606371864569,
+        "stop" : 1606371864569,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dfff70c2bead12d7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606371834775,
+        "stop" : 1606371834775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "727f9a9860802ee6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606371139020,
+        "stop" : 1606371139020,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9825e263025de262",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606370491013,
+        "stop" : 1606370491013,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6f3e70e2aef837b7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1606359888989,
+        "stop" : 1606359888989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b1f9f74659ac61fe",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1606353242819,
+        "stop" : 1606353242819,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5103381bc141581b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606310231190,
+        "stop" : 1606310233425,
+        "duration" : 2235
+      }
+    }, {
+      "uid" : "f5c4be0f39210b46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606302874800,
+        "stop" : 1606302877022,
+        "duration" : 2222
+      }
+    }, {
+      "uid" : "9c93d564b28baab7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606301736754,
+        "stop" : 1606301738967,
+        "duration" : 2213
+      }
+    }, {
+      "uid" : "a59eca63226c2ed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606290764970,
+        "stop" : 1606290767180,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "462b7d5ba24350dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606266879489,
+        "stop" : 1606266881722,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "14c627005040ea55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606215286353,
+        "stop" : 1606215288611,
+        "duration" : 2258
+      }
+    }, {
+      "uid" : "6a350eb86c3aca18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606128969097,
+        "stop" : 1606128972823,
+        "duration" : 3726
+      }
+    }, {
+      "uid" : "b50a0f14980f68ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606094761824,
+        "stop" : 1606094764379,
+        "duration" : 2555
+      }
+    }, {
+      "uid" : "f65dcd6a6a99d590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606042561662,
+        "stop" : 1606042563897,
+        "duration" : 2235
+      }
+    }, {
+      "uid" : "480704421699ed6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606008219264,
+        "stop" : 1606008221473,
+        "duration" : 2209
+      }
+    }, {
+      "uid" : "9d512beee7a7d31e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605967037121,
+        "stop" : 1605967037121,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "98ce4bf7083b031d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605967014249,
+        "stop" : 1605967014249,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af1707f7d14ed58a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605966758558,
+        "stop" : 1605966758558,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c5d8d87cb2631cdf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605963461349,
+        "stop" : 1605963461349,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d4f475ea253dbf8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605963445284,
+        "stop" : 1605963445284,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c551512bb05a748a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605963115483,
+        "stop" : 1605963115483,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c04f1e364332856e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605962939837,
+        "stop" : 1605962939837,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a5d03fb772bb9a8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605962916263,
+        "stop" : 1605962916263,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3a7fa03fdde354bc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605962863919,
+        "stop" : 1605962863919,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73d1459528e988dc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605962814478,
+        "stop" : 1605962814478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "70b6874d8b8553a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605962369678,
+        "stop" : 1605962371910,
+        "duration" : 2232
+      }
+    }, {
+      "uid" : "654bd4fb82b3fc52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605923020601,
+        "stop" : 1605923023041,
+        "duration" : 2440
+      }
+    }, {
+      "uid" : "b7a11b822e8b43a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605921691362,
+        "stop" : 1605921693642,
+        "duration" : 2280
+      }
+    }, {
+      "uid" : "2465199c9630c321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605874443853,
+        "stop" : 1605874446109,
+        "duration" : 2256
+      }
+    }, {
+      "uid" : "7dc2d0398303541c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605860076399,
+        "stop" : 1605860076399,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a9575aa21683e2c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605860043921,
+        "stop" : 1605860043921,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "750f03196fd0a785",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605859685061,
+        "stop" : 1605859685061,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51d2fc79d19015fe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605859635532,
+        "stop" : 1605859635532,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "430446df4ed2800",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605858858939,
+        "stop" : 1605858858939,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "475ce7ff11715ed7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605858616559,
+        "stop" : 1605858616559,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89cd062b7494c0e9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605858542680,
+        "stop" : 1605858542680,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dbbf46ac2c00912e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605858494469,
+        "stop" : 1605858494469,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a2f31ea2322332ad",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605858009966,
+        "stop" : 1605858009966,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "41794159a32d85a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605838783528,
+        "stop" : 1605838785786,
+        "duration" : 2258
+      }
+    }, {
+      "uid" : "2296fe26e13abd4f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1605834744900,
+        "stop" : 1605834744900,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a19aaa34cb1d48b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605795560172,
+        "stop" : 1605795562397,
+        "duration" : 2225
+      }
+    }, {
+      "uid" : "b955beeee683057e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605791086545,
+        "stop" : 1605791088869,
+        "duration" : 2324
+      }
+    }, {
+      "uid" : "96748d5585e24844",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605790631257,
+        "stop" : 1605790631257,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6475a1213c802b42",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605790374517,
+        "stop" : 1605790374517,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15f751f2549ee3cd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605748618168,
+        "stop" : 1605748618168,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1e6c8490258ca08",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\python_code\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605704528205,
+        "stop" : 1605704528205,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "940fed036b7e2096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605613727638,
+        "stop" : 1605613729858,
+        "duration" : 2220
+      }
+    }, {
+      "uid" : "da6afc48a4003df4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605525170338,
+        "stop" : 1605525172827,
+        "duration" : 2489
+      }
+    }, {
+      "uid" : "884f8accaa4f4bc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605488072424,
+        "stop" : 1605488074603,
+        "duration" : 2179
+      }
+    }, {
+      "uid" : "559d8a74974bc74a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605437675569,
+        "stop" : 1605437677779,
+        "duration" : 2210
+      }
+    }, {
+      "uid" : "53006cd4dd5dfbef",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605406675660,
+        "stop" : 1605406675660,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db0e20c69cbe398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605401675036,
+        "stop" : 1605401677225,
+        "duration" : 2189
+      }
+    }, {
+      "uid" : "5d24e9ab4441ead9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605351275324,
+        "stop" : 1605351277509,
+        "duration" : 2185
+      }
+    }, {
+      "uid" : "cee65c69821143eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605315271871,
+        "stop" : 1605315274074,
+        "duration" : 2203
+      }
+    }, {
+      "uid" : "da41efb1b85cddec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605264870462,
+        "stop" : 1605264872663,
+        "duration" : 2201
+      }
+    }, {
+      "uid" : "bb2cc65f55b567d4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605253588456,
+        "stop" : 1605253588456,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1fa85b4022645fa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605238525255,
+        "stop" : 1605238525255,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14686236d9b91fa6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605238198137,
+        "stop" : 1605238198137,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f07d6fa49341409c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+      "time" : {
+        "start" : 1605237865167,
+        "stop" : 1605237865167,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 10,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 35
+      },
+      "items" : [ {
+        "uid" : "87c909920eaa6cac",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/39/allure/#testresult/87c909920eaa6cac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606825376297,
+          "stop" : 1606825378649,
+          "duration" : 2352
+        }
+      }, {
+        "uid" : "c6ef93beb33e237f",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/38/allure/#testresult/c6ef93beb33e237f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606785465592,
+          "stop" : 1606785467799,
+          "duration" : 2207
+        }
+      }, {
+        "uid" : "da8a5011bf8e4118",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/37/allure/#testresult/da8a5011bf8e4118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606739583234,
+          "stop" : 1606739585614,
+          "duration" : 2380
+        }
+      }, {
+        "uid" : "4a8359208ee131fd",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/36/allure/#testresult/4a8359208ee131fd",
+        "status" : "broken",
+        "statusDetails" : "TypeError: tuple indices must be integers or slices, not str",
+        "time" : {
+          "start" : 1606736313058,
+          "stop" : 1606736313058,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3f9d9350854f92cf",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/35/allure/#testresult/3f9d9350854f92cf",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1606698909935,
+          "stop" : 1606698909935,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8522deedb5c3173b",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/34/allure/#testresult/8522deedb5c3173b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606619922836,
+          "stop" : 1606619925046,
+          "duration" : 2210
+        }
+      }, {
+        "uid" : "8647a1436666dedd",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/33/allure/#testresult/8647a1436666dedd",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1606619201405,
+          "stop" : 1606619201405,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e2c599cc67fc8fa3",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/32/allure/#testresult/e2c599cc67fc8fa3",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1606572943815,
+          "stop" : 1606572943815,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a37659fa0534c54f",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/31/allure/#testresult/a37659fa0534c54f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1606528779704,
+          "stop" : 1606528779704,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3fceaaf3a2f7b26a",
+        "reportUrl" : "http://localhost:8080/job/Api_automation/30/allure/#testresult/3fceaaf3a2f7b26a",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1606497641743,
+          "stop" : 1606497641743,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e30e17b329ec2aaf",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/181/allure/#testresult/e30e17b329ec2aaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605437675569,
+          "stop" : 1605437677779,
+          "duration" : 2210
+        }
+      }, {
+        "uid" : "4467e15633032151",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/180/allure/#testresult/4467e15633032151",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605401675036,
+          "stop" : 1605401677225,
+          "duration" : 2189
+        }
+      }, {
+        "uid" : "f0b25e316c0db258",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/179/allure/#testresult/f0b25e316c0db258",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605351275324,
+          "stop" : 1605351277509,
+          "duration" : 2185
+        }
+      }, {
+        "uid" : "3062a8bf6b2254b",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/178/allure/#testresult/3062a8bf6b2254b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605315271871,
+          "stop" : 1605315274074,
+          "duration" : 2203
+        }
+      }, {
+        "uid" : "b1156b5273e7a090",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/177/allure/#testresult/b1156b5273e7a090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605264870462,
+          "stop" : 1605264872663,
+          "duration" : 2201
+        }
+      }, {
+        "uid" : "21fcb5e7564e93e2",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/176/allure/#testresult/21fcb5e7564e93e2",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1605142229711,
+          "stop" : 1605142229711,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "133b883b57c4c4aa",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/175/allure/#testresult/133b883b57c4c4aa",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1605091828044,
+          "stop" : 1605091828044,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "64a97ae7f00f7353",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/174/allure/#testresult/64a97ae7f00f7353",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1605055822400,
+          "stop" : 1605055822400,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "31c4d7c9fc462f76",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/173/allure/#testresult/31c4d7c9fc462f76",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at D:\\Job\\python\\Script\\Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37",
+        "time" : {
+          "start" : 1605005418808,
+          "stop" : 1605005418808,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "688f96c0719b9daf",
+        "reportUrl" : "http://192.168.0.108:8080/job/%E4%B8%80%E7%94%9F%E7%BA%A6%E8%87%AA%E5%8A%A8%E5%8C%96%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/172/allure/#testresult/688f96c0719b9daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993882212,
+          "stop" : 1604993884411,
+          "duration" : 2199
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['case'], function test_ysy_pro_003_sign_find_employees_sign at E:\\Python_auto_test\\Pytest_Api_automation\\TestCase_004_ysy_property\\test_ysy_pro_002_home.py:37')" ]
+  },
+  "source" : "c388d0e25787cd4.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "2fb35bace74546f6",
+  "name" : "test_ysy_pro_008_Health_Check_visitAdd[case5]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_002_home.TestYsyPro002Home#test_ysy_pro_008_Health_Check_visitAdd",
+  "historyId" : "f7ad31f0fff3429a16d81726314e1a9c",
+  "time" : {
+    "start" : 1606439681598,
+    "stop" : 1606439683830,
+    "duration" : 2232
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "访客登记",
+      "time" : {
+        "start" : 1606439681598,
+        "stop" : 1606439683830,
+        "duration" : 2232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2033', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_008_Health_Check_visitAdd', 'case_description': '首页-访客登记', 'case_url': '/api/v1/epidemic/residentInOutHealthCheck/visitAdd?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"customerName\":\"自动化访客\",\"visitMobile\":\"13438788212\",\"visitIdNo\":\"\",\"visitReason\":\"VISIT_FRIEND\",\"visitCarNo\":\"\",\"visitPhotos\":\"\",\"temperature\":\"LT_37D3\",\"q2\":\"N\",\"q3\":\"N\",\"q4\":\"N\",\"houseId\":\"j::houseId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "story",
+    "value" : "首页"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_002_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro002Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "12868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_002_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2033', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_008_Health_Check_visitAdd', 'case_description': '首页-访客登记', 'case_url': '/api/v1/epidemic/residentInOutHealthCheck/visitAdd?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"customerName\":\"自动化访客\",\"visitMobile\":\"13438788212\",\"visitIdNo\":\"\",\"visitReason\":\"VISIT_FRIEND\",\"visitCarNo\":\"\",\"visitPhotos\":\"\",\"temperature\":\"LT_37D3\",\"q2\":\"N\",\"q3\":\"N\",\"q4\":\"N\",\"houseId\":\"j::houseId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fb35bace74546f6.json",
+  "parameterValues" : [ "{'ID': '2033', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_008_Health_Check_visitAdd', 'case_description': '首页-访客登记', 'case_url': '/api/v1/epidemic/residentInOutHealthCheck/visitAdd?userId=j::userId', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '{\"customerName\":\"自动化访客\",\"visitMobile\":\"13438788212\",\"visitIdNo\":\"\",\"visitReason\":\"VISIT_FRIEND\",\"visitCarNo\":\"\",\"visitPhotos\":\"\",\"temperature\":\"LT_37D3\",\"q2\":\"N\",\"q3\":\"N\",\"q4\":\"N\",\"houseId\":\"j::houseId\"}', 'case_expect': 'code\": 0', 'Comment': '', 'advice': ''}" ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid" : "3753e9d6cba32378",
+  "name" : "test_home_003_login_Score[case0]",
+  "fullName" : "TestCase_001_ysy.test_ysy_005_home.TestYsy005Home#test_home_003_login_Score",
+  "historyId" : "53df5ac91060426b13a7d26d0e53d865",
+  "time" : {
+    "start" : 1605834743993,
+    "stop" : 1605834743993,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述：首页--每日登陆获取积分\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页--每日登陆获取积分\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: tuple indices must be integers or slices, not str",
+  "statusTrace" : "self = <test_ysy_005_home.TestYsy005Home object at 0x00000186ED59A408>\ncase = {'Comment': '', 'ID': '0066', 'advice': '这里同样类型的错误描述各个api都不一致', 'case_description': '首页--每日登陆获取积分--缺少userid', ...}\n\n    @pytest.mark.parametrize('case', excel.get_excel_data('home_003_login_Score'))\n    def test_home_003_login_Score(self, case):\n        \"\"\"\n            用例描述：首页--每日登陆获取积分\n        \"\"\"\n>       self.new.test_case_method(case,'get')\n\nTestCase_001_ysy\\test_ysy_005_home.py:42: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.new_tool_a.New_Tool_A object at 0x00000186ED4A0748>\ncase = {'Comment': '', 'ID': '0066', 'advice': '这里同样类型的错误描述各个api都不一致', 'case_description': '首页--每日登陆获取积分--缺少userid', ...}\nrequest_method = 'get'\n\n    def test_case_method(self,case,request_method):\n        '''\n        所有api测试用例调用该方法\n        :param case:\n        :param request_method:\n        :return:\n        '''\n        expect, api_url, headers, params, global_var = self.param_get_deal(case)\n        response = self.reqe.req(request_method, api_url, params, headers, global_var)\n>       if response['body']:\nE       TypeError: tuple indices must be integers or slices, not str\n\nCommon\\new_tool_a.py:359: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--首頁"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_005_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy005Home"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "24616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_005_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0066', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_003_login_Score', 'case_description': '首页--每日登陆获取积分--缺少userid', 'case_url': '/api/v1/user/loginScore?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID参数为空', 'Comment': '', 'advice': '这里同样类型的错误描述各个api都不一致'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3753e9d6cba32378.json",
+  "parameterValues" : [ "{'ID': '0066', 'envir': 'ysy_release', '前置用例': '', 'module': 'home_003_login_Score', 'case_description': '首页--每日登陆获取积分--缺少userid', 'case_url': '/api/v1/user/loginScore?userId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\",\"accessToken\":\"j::accessToken\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '用户ID参数为空', 'Comment': '', 'advice': '这里同样类型的错误描述各个api都不一致'}" ]
+}

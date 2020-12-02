@@ -1,0 +1,97 @@
+{
+  "uid" : "245d6ffb14850fae",
+  "name" : "test_biotope_serve_002_notice_newest[case1]",
+  "fullName" : "TestCase_001_ysy.test_ysy_003_biotope_serve.TestYsy003BiotopeServe#test_biotope_serve_002_notice_newest",
+  "historyId" : "4e420838271c0e950cd47cf0440f5ee1",
+  "time" : {
+    "start" : 1606445787509,
+    "stop" : 1606445789736,
+    "duration" : 2227
+  },
+  "description" : "\n            用例描述：首页刷新--广播\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：首页刷新--广播\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：首页刷新--广播\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "首页广播",
+      "time" : {
+        "start" : 1606445787509,
+        "stop" : 1606445789736,
+        "duration" : 2227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '0081', 'envir': 'ysy_release', '前置用例': '', 'module': 'biotope_serve_001_notice_newest', 'case_description': '小区广播--缺少小区id', 'case_url': '/api/v1/pmc/notice/newest?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID为空', 'Comment': '', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "一生约--物业板块"
+  }, {
+    "name" : "story",
+    "value" : "物业首页"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_001_ysy"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_003_biotope_serve"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsy003BiotopeServe"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "5788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_001_ysy.test_ysy_003_biotope_serve"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '0081', 'envir': 'ysy_release', '前置用例': '', 'module': 'biotope_serve_001_notice_newest', 'case_description': '小区广播--缺少小区id', 'case_url': '/api/v1/pmc/notice/newest?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID为空', 'Comment': '', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "245d6ffb14850fae.json",
+  "parameterValues" : [ "{'ID': '0081', 'envir': 'ysy_release', '前置用例': '', 'module': 'biotope_serve_001_notice_newest', 'case_description': '小区广播--缺少小区id', 'case_url': '/api/v1/pmc/notice/newest?biotopeId=', 'case_header': '{\"Content-Type\":\"application/json; charset=UTF-8\",\"enterpriseId\":\"1122c78ae5d140a5acbaa9e75c8b8994\"}', 'case_global_var': '', 'case_preset': '', 'case_params': '', 'case_expect': '小区ID为空', 'Comment': '', 'advice': ''}" ]
+}

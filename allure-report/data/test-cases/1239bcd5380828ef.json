@@ -1,0 +1,97 @@
+{
+  "uid" : "1239bcd5380828ef",
+  "name" : "test_ysy_pro_001_user_login[case0]",
+  "fullName" : "TestCase_004_ysy_property.test_ysy_pro_001_login.TestYsyPro001Login#test_ysy_pro_001_user_login",
+  "historyId" : "c0b7c8acd53e20d28094b7583f45ed9a",
+  "time" : {
+    "start" : 1606042519508,
+    "stop" : 1606042521898,
+    "duration" : 2390
+  },
+  "description" : "\n            用例描述：物业app密码登录\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：物业app密码登录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：物业app密码登录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录",
+      "time" : {
+        "start" : 1606042519508,
+        "stop" : 1606042521898,
+        "duration" : 2390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "一生约物业app"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase_004_ysy_property"
+  }, {
+    "name" : "suite",
+    "value" : "test_ysy_pro_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestYsyPro001Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-64VUMUD"
+  }, {
+    "name" : "thread",
+    "value" : "17776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase_004_ysy_property.test_ysy_pro_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1239bcd5380828ef.json",
+  "parameterValues" : [ "{'ID': '2001', 'envir': 'ysy_pro_release', '前置用例': '', 'module': 'ysy_pro_001_user_login', 'case_description': '一生约物业app登录', 'case_url': '/api/v1/user/login', 'case_header': '{\"Content-Type\":\"application/json\"}', 'case_global_var': 'data/accessToken,data/userId,data/biotopeId', 'case_preset': '', 'case_params': '{\"mobile\":\"c::ysy_pro_user\",\"password\":\"123456\"}', 'case_expect': 'code\": 0', 'Comment': '注意，所有的一生约app及物业app需要统一先后顺序，否则token被覆盖，可能导致运行失败', 'advice': ''}" ]
+}
