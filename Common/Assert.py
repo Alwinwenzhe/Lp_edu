@@ -102,7 +102,6 @@ class Assertions:
         except:
             self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
             Consts.RESULT_LIST.append('fail')
-
             raise
 
     def assert_common(self,res_code,res_body,res_expect,res_time):
@@ -125,5 +124,10 @@ class Assertions:
         '''
         assert self.assert_code(res_code, 200)
         assert self.assert_time(res_time, 1500)
+
+    def assert_none(self,var):
+        '''判定返回值为None则报错'''
+        assert  var == None
+        return False
 
 

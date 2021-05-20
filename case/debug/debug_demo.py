@@ -1,6 +1,6 @@
-try:
-   f = open('file.txt')
-except IOError, e:
-   print e
-else:
-    print 'wrong'
+def sum():
+    a = 100 +20
+    print(a)
+
+if __name__ == "__main__":
+    sum()

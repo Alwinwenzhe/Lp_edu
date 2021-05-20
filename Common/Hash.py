@@ -12,8 +12,27 @@ from hashlib import md5
 from Crypto.Hash import SHA256
 from Crypto.Cipher import AES
 from Crypto.Cipher import DES
-import binascii
+import binascii, hashlib
 
+
+def double_md5(self):
+    '''
+    一生约正式环境登录接口的签名规则-双重加密
+    现在加密算法和java的MD5值不匹配
+    :return:
+    '''
+    key = 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALe39vUUq6T1NBMg4QoEyl96WKYdHrGUvYIMRDIIaHZbu1eLeYEiesV/XNMwLyzXVZwmy9WpyNBTdDpQ'
+    rand8 = self.randint_8()
+    cur_ti = self.get_current_timestamp()
+    str_sum = str(rand8) + key + str(cur_ti)
+    str_re = str_sum.encode(encoding='utf-8')
+    m = hashlib.md5()
+    m.update(str_re)  # 和java端切换为一致的编码格式，也不一样
+    n = hashlib.md5()  # 再次定义一个hash对象，因为重复调用update(arg)方法，是会将传入的arg参数进行拼接，而不是覆盖
+    str_rb = m.hexdigest().encode(encoding='utf-8')
+    n.update(str_rb)
+    k = n.hexdigest()
+    return rand8, cur_ti, k
 
 def my_md5(msg):
     """

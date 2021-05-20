@@ -23,9 +23,7 @@ from Common import Log
 from Common import Shell
 from Conf import Config
 
-
 if __name__ == '__main__':
-
 
     conf = Config.Config()
     log = Log.MyLog()
@@ -41,6 +39,7 @@ if __name__ == '__main__':
 
     cmd1 = 'allure generate %s -o %s  --clean' % (xml_report_path, html_report_path)
     # cmd2 = r'xcopy %s %s /e /Y /I' % (xml_report_path,html_report_path)   # trend使用
+
 
     try:
         shell.invoke(cmd1)
